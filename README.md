@@ -57,23 +57,23 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 0.1 | How to think like a backend engineer — reasoning about systems | `[CORE]` |
-| 0.2 | What "the backend" actually is — and what it isn't | `[CORE]` |
-| 0.3 | How the internet physically works — cables, packets, hops | `[CORE]` |
-| 0.4 | The OSI Model — 7 layers that explain every network tool | `[CORE]` |
-| 0.5 | Latency, bandwidth, throughput — the three numbers governing every decision | `[CORE]` |
-| 0.6 | The memory hierarchy — registers, L1/L2/L3 cache, RAM, disk, network | `[CORE]` |
-| 0.7 | Binary, hexadecimal, and encoding — why your string is broken | `[CORE]` |
-| 0.8 | Character encoding deep dive — ASCII, UTF-8, Unicode, Base64 | `[CORE]` |
-| 0.9 | Time zones, UTC, Unix timestamps — why dates destroy production systems | `[CORE]` |
-| 0.10 | Idempotency — the concept behind retry-safe systems | `[CORE]` |
-| 0.11 | Determinism vs. non-determinism in distributed systems | `[ADVANCED]` |
-| 0.12 | The fallacies of distributed computing — 8 assumptions that will burn you | `[ADVANCED]` |
-| 0.13 | CAP theorem — consistency, availability, partition tolerance | `[ADVANCED]` |
-| 0.14 | How a CPU executes code — processes, threads, context switching | `[CORE]` |
-| 0.15 | Synchronous vs. asynchronous — the most important mental model in backend | `[CORE]` |
-| 0.16 | Concurrency vs. parallelism — they are not the same thing | `[CORE]` |
-| 0.17 | The cost of abstraction — why "it just works" is dangerous thinking | `[CORE]` |
+| 0.1 | [How to think like a backend engineer — reasoning about systems](phases/phase-00-mental-models/0.01-think-like-a-backend-engineer.md) | `[CORE]` ✅ |
+| 0.2 | [What "the backend" actually is — and what it isn't](phases/phase-00-mental-models/0.02-what-is-the-backend.md) | `[CORE]` ✅ |
+| 0.3 | [How the internet physically works — cables, packets, hops](phases/phase-00-mental-models/0.03-how-the-internet-works.md) | `[CORE]` ✅ |
+| 0.4 | [The OSI Model — 7 layers that explain every network tool](phases/phase-00-mental-models/0.04-osi-model.md) | `[CORE]` ✅ |
+| 0.5 | [Latency, bandwidth, throughput — the three numbers governing every decision](phases/phase-00-mental-models/0.05-latency-bandwidth-throughput.md) | `[CORE]` ✅ |
+| 0.6 | [The memory hierarchy — registers, L1/L2/L3 cache, RAM, disk, network](phases/phase-00-mental-models/0.06-memory-hierarchy.md) | `[CORE]` ✅ |
+| 0.7 | [Binary, hexadecimal, and encoding — why your string is broken](phases/phase-00-mental-models/0.07-binary-hex-encoding.md) | `[CORE]` ✅ |
+| 0.8 | [Character encoding deep dive — ASCII, UTF-8, Unicode, Base64](phases/phase-00-mental-models/0.08-character-encoding.md) | `[CORE]` ✅ |
+| 0.9 | [Time zones, UTC, Unix timestamps — why dates destroy production systems](phases/phase-00-mental-models/0.09-timezones-utc-timestamps.md) | `[CORE]` ✅ |
+| 0.10 | [Idempotency — the concept behind retry-safe systems](phases/phase-00-mental-models/0.10-idempotency.md) | `[CORE]` ✅ |
+| 0.11 | [Determinism vs. non-determinism in distributed systems](phases/phase-00-mental-models/0.11-determinism.md) | `[ADVANCED]` ✅ |
+| 0.12 | [The fallacies of distributed computing — 8 assumptions that will burn you](phases/phase-00-mental-models/0.12-fallacies-of-distributed-computing.md) | `[ADVANCED]` ✅ |
+| 0.13 | [CAP theorem — consistency, availability, partition tolerance](phases/phase-00-mental-models/0.13-cap-theorem.md) | `[ADVANCED]` ✅ |
+| 0.14 | [How a CPU executes code — processes, threads, context switching](phases/phase-00-mental-models/0.14-cpu-processes-threads.md) | `[CORE]` ✅ |
+| 0.15 | [Synchronous vs. asynchronous — the most important mental model in backend](phases/phase-00-mental-models/0.15-sync-vs-async.md) | `[CORE]` ✅ |
+| 0.16 | [Concurrency vs. parallelism — they are not the same thing](phases/phase-00-mental-models/0.16-concurrency-vs-parallelism.md) | `[CORE]` ✅ |
+| 0.17 | [The cost of abstraction — why "it just works" is dangerous thinking](phases/phase-00-mental-models/0.17-cost-of-abstraction.md) | `[CORE]` ✅ |
 
 ---
 
@@ -83,28 +83,28 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 1.1 | IP addresses — IPv4, IPv6, subnets, CIDR notation | `[CORE]` |
-| 1.2 | TCP — reliability, handshakes, flow control, why it's slow | `[CORE]` |
-| 1.3 | UDP — speed over reliability, where and why it's used | `[CORE]` |
-| 1.4 | DNS — resolution pipeline, records (A, AAAA, CNAME, MX, TXT, SRV), TTL | `[CORE]` |
-| 1.5 | DNS internals — recursive resolvers, root servers, authoritative servers | `[CORE]` |
-| 1.6 | HTTP/1.0 — the original, stateless, one request per connection | `[CORE]` |
-| 1.7 | HTTP/1.1 — persistent connections, pipelining, chunked transfer | `[CORE]` |
-| 1.8 | HTTP/2 — multiplexing, header compression (HPACK), server push, streams | `[CORE]` |
-| 1.9 | HTTP/3 & QUIC — UDP-based, 0-RTT, why it was built | `[ADVANCED]` |
-| 1.10 | HTTPS — TLS handshake step by step, certificates, CAs, HSTS | `[CORE]` |
-| 1.11 | TLS 1.2 vs TLS 1.3 — differences, why you must upgrade | `[ADVANCED]` |
-| 1.12 | HTTP headers deep dive — request, response, caching headers | `[CORE]` |
-| 1.13 | HTTP status codes — every range explained with production context | `[CORE]` |
-| 1.14 | Cookies — structure, attributes (SameSite, HttpOnly, Secure), scope | `[CORE]` |
-| 1.15 | CORS — why it exists, preflight requests, how to configure it correctly | `[CORE]` |
-| 1.16 | CDNs — how content delivery networks work, edge caching, PoPs | `[CORE]` |
-| 1.17 | Proxies vs. reverse proxies — the difference and when each is used | `[CORE]` |
-| 1.18 | Load balancers — L4 vs L7, algorithms (round-robin, least-conn, IP hash) | `[CORE]` |
-| 1.19 | NAT — network address translation, port mapping | `[ADVANCED]` |
-| 1.20 | Firewalls — stateful vs stateless, rules, security groups | `[ADVANCED]` |
-| 1.21 | VPNs & tunneling — how they work, site-to-site, client VPN | `[ADVANCED]` |
-| 1.22 | Service mesh — what it is, Istio, Envoy, when you need one | `[SPECIALIST]` |
+| 1.1 | [IP addresses — IPv4, IPv6, subnets, CIDR notation](phases/phase-01-internet-networking/1.01-ip-addresses.md) | `[CORE]` ✅ |
+| 1.2 | [TCP — reliability, handshakes, flow control, why it's slow](phases/phase-01-internet-networking/1.02-tcp.md) | `[CORE]` ✅ |
+| 1.3 | [UDP — speed over reliability, where and why it's used](phases/phase-01-internet-networking/1.03-udp.md) | `[CORE]` ✅ |
+| 1.4 | [DNS — resolution pipeline, records (A, AAAA, CNAME, MX, TXT, SRV), TTL](phases/phase-01-internet-networking/1.04-dns.md) | `[CORE]` ✅ |
+| 1.5 | [DNS internals — recursive resolvers, root servers, authoritative servers](phases/phase-01-internet-networking/1.05-dns-internals.md) | `[CORE]` ✅ |
+| 1.6 | [HTTP/1.0 — the original, stateless, one request per connection](phases/phase-01-internet-networking/1.06-http1.md) | `[CORE]` ✅ |
+| 1.7 | [HTTP/1.1 — persistent connections, pipelining, chunked transfer](phases/phase-01-internet-networking/1.07-http11.md) | `[CORE]` ✅ |
+| 1.8 | [HTTP/2 — multiplexing, header compression (HPACK), server push, streams](phases/phase-01-internet-networking/1.08-http2.md) | `[CORE]` ✅ |
+| 1.9 | [HTTP/3 & QUIC — UDP-based, 0-RTT, why it was built](phases/phase-01-internet-networking/1.09-http3-quic.md) | `[ADVANCED]` ✅ |
+| 1.10 | [HTTPS — TLS handshake step by step, certificates, CAs, HSTS](phases/phase-01-internet-networking/1.10-https-tls.md) | `[CORE]` ✅ |
+| 1.11 | [TLS 1.2 vs TLS 1.3 — differences, why you must upgrade](phases/phase-01-internet-networking/1.11-tls-versions.md) | `[ADVANCED]` ✅ |
+| 1.12 | [HTTP headers deep dive — request, response, caching headers](phases/phase-01-internet-networking/1.12-http-headers.md) | `[CORE]` ✅ |
+| 1.13 | [HTTP status codes — every range explained with production context](phases/phase-01-internet-networking/1.13-http-status-codes.md) | `[CORE]` ✅ |
+| 1.14 | [Cookies — structure, attributes (SameSite, HttpOnly, Secure), scope](phases/phase-01-internet-networking/1.14-cookies.md) | `[CORE]` ✅ |
+| 1.15 | [CORS — why it exists, preflight requests, how to configure it correctly](phases/phase-01-internet-networking/1.15-cors.md) | `[CORE]` ✅ |
+| 1.16 | [CDNs — how content delivery networks work, edge caching, PoPs](phases/phase-01-internet-networking/1.16-cdns.md) | `[CORE]` ✅ |
+| 1.17 | [Proxies vs. reverse proxies — the difference and when each is used](phases/phase-01-internet-networking/1.17-proxies.md) | `[CORE]` ✅ |
+| 1.18 | [Load balancers — L4 vs L7, algorithms (round-robin, least-conn, IP hash)](phases/phase-01-internet-networking/1.18-load-balancers.md) | `[CORE]` ✅ |
+| 1.19 | [NAT — network address translation, port mapping](phases/phase-01-internet-networking/1.19-nat.md) | `[ADVANCED]` ✅ |
+| 1.20 | [Firewalls — stateful vs stateless, rules, security groups](phases/phase-01-internet-networking/1.20-firewalls.md) | `[ADVANCED]` ✅ |
+| 1.21 | [VPNs & tunneling — how they work, site-to-site, client VPN](phases/phase-01-internet-networking/1.21-vpns.md) | `[ADVANCED]` ✅ |
+| 1.22 | [Service mesh — what it is, Istio, Envoy, when you need one](phases/phase-01-internet-networking/1.22-service-mesh.md) | `[SPECIALIST]` ✅ |
 
 ---
 
@@ -114,26 +114,26 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 2.1 | The request/response lifecycle — what happens from browser to database and back | `[CORE]` |
-| 2.2 | Client-server architecture — what the server is responsible for | `[CORE]` |
-| 2.3 | Stateless vs. stateful servers — why this matters for scaling | `[CORE]` |
-| 2.4 | Environment variables — configuration vs. code, 12-factor app | `[CORE]` |
-| 2.5 | Secrets management — never in code, never in git, always encrypted | `[CORE]` |
-| 2.6 | Input validation — trust nothing from users, validate at every boundary | `[CORE]` |
-| 2.7 | Error handling strategies — error codes, exceptions, error objects, propagation | `[CORE]` |
-| 2.8 | Logging basics — what to log, what not to log, structured logging | `[CORE]` |
-| 2.9 | Request IDs and distributed tracing basics | `[CORE]` |
-| 2.10 | Graceful shutdown — why your server must drain connections before dying | `[CORE]` |
-| 2.11 | Health checks — liveness vs readiness probes | `[CORE]` |
-| 2.12 | Backpressure — when your system receives more than it can handle | `[ADVANCED]` |
-| 2.13 | Circuit breakers — stopping cascade failures | `[ADVANCED]` |
-| 2.14 | Retry logic — exponential backoff, jitter, when NOT to retry | `[ADVANCED]` |
-| 2.15 | Timeouts — connection timeout vs. read timeout, why defaults will kill you | `[CORE]` |
-| 2.16 | Feature flags — deploying code before it's live | `[ADVANCED]` |
-| 2.17 | Rate limiting strategies — token bucket, sliding window, fixed window | `[CORE]` |
-| 2.18 | Pagination — offset, cursor, keyset — performance differences | `[CORE]` |
-| 2.19 | API versioning — URL path, headers, query params — trade-offs | `[CORE]` |
-| 2.20 | Webhooks — push vs. pull, delivery guarantees, signature verification | `[CORE]` |
+| 2.1 | [The request/response lifecycle — what happens from browser to database and back](phases/phase-02-core-backend-concepts/2.01-request-response-lifecycle.md) | `[CORE]` ✅ |
+| 2.2 | [Client-server architecture — what the server is responsible for](phases/phase-02-core-backend-concepts/2.02-client-server-architecture.md) | `[CORE]` ✅ |
+| 2.3 | [Stateless vs. stateful servers — why this matters for scaling](phases/phase-02-core-backend-concepts/2.03-stateless-vs-stateful.md) | `[CORE]` ✅ |
+| 2.4 | [Environment variables — configuration vs. code, 12-factor app](phases/phase-02-core-backend-concepts/2.04-environment-variables.md) | `[CORE]` ✅ |
+| 2.5 | [Secrets management — never in code, never in git, always encrypted](phases/phase-02-core-backend-concepts/2.05-secrets-management.md) | `[CORE]` ✅ |
+| 2.6 | [Input validation — trust nothing from users, validate at every boundary](phases/phase-02-core-backend-concepts/2.06-input-validation.md) | `[CORE]` ✅ |
+| 2.7 | [Error handling strategies — error codes, exceptions, error objects, propagation](phases/phase-02-core-backend-concepts/2.07-error-handling.md) | `[CORE]` ✅ |
+| 2.8 | [Logging basics — what to log, what not to log, structured logging](phases/phase-02-core-backend-concepts/2.08-logging.md) | `[CORE]` ✅ |
+| 2.9 | [Request IDs and distributed tracing basics](phases/phase-02-core-backend-concepts/2.09-request-ids-tracing.md) | `[CORE]` ✅ |
+| 2.10 | [Graceful shutdown — why your server must drain connections before dying](phases/phase-02-core-backend-concepts/2.10-graceful-shutdown.md) | `[CORE]` ✅ |
+| 2.11 | [Health checks — liveness vs readiness probes](phases/phase-02-core-backend-concepts/2.11-health-checks.md) | `[CORE]` ✅ |
+| 2.12 | [Backpressure — when your system receives more than it can handle](phases/phase-02-core-backend-concepts/2.12-backpressure.md) | `[ADVANCED]` ✅ |
+| 2.13 | [Circuit breakers — stopping cascade failures](phases/phase-02-core-backend-concepts/2.13-circuit-breakers.md) | `[ADVANCED]` ✅ |
+| 2.14 | [Retry logic — exponential backoff, jitter, when NOT to retry](phases/phase-02-core-backend-concepts/2.14-retry-logic.md) | `[ADVANCED]` ✅ |
+| 2.15 | [Timeouts — connection timeout vs. read timeout, why defaults will kill you](phases/phase-02-core-backend-concepts/2.15-timeouts.md) | `[CORE]` ✅ |
+| 2.16 | [Feature flags — deploying code before it's live](phases/phase-02-core-backend-concepts/2.16-feature-flags.md) | `[ADVANCED]` ✅ |
+| 2.17 | [Rate limiting strategies — token bucket, sliding window, fixed window](phases/phase-02-core-backend-concepts/2.17-rate-limiting.md) | `[CORE]` ✅ |
+| 2.18 | [Pagination — offset, cursor, keyset — performance differences](phases/phase-02-core-backend-concepts/2.18-pagination.md) | `[CORE]` ✅ |
+| 2.19 | [API versioning — URL path, headers, query params — trade-offs](phases/phase-02-core-backend-concepts/2.19-api-versioning.md) | `[CORE]` ✅ |
+| 2.20 | [Webhooks — push vs. pull, delivery guarantees, signature verification](phases/phase-02-core-backend-concepts/2.20-webhooks.md) | `[CORE]` ✅ |
 
 ---
 
@@ -143,25 +143,25 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 3.1 | **Python** — interpreted, GIL, asyncio, why it dominates data & APIs | `[CORE]` |
-| 3.2 | Python internals — CPython, GIL deep dive, memory management | `[ADVANCED]` |
-| 3.3 | Python async/await — event loop, coroutines, tasks, asyncio internals | `[CORE]` |
-| 3.4 | **Node.js** — V8, event loop, libuv, non-blocking I/O model | `[CORE]` |
-| 3.5 | Node.js internals — call stack, callback queue, microtask queue, event loop phases | `[ADVANCED]` |
-| 3.6 | **Go (Golang)** — goroutines, channels, why it was built for servers | `[CORE]` |
-| 3.7 | Go internals — goroutine scheduler (M:N), garbage collector, escape analysis | `[ADVANCED]` |
-| 3.8 | **Java** — JVM, JIT compilation, garbage collection, Spring ecosystem | `[CORE]` |
-| 3.9 | **Rust** — ownership, borrowing, zero-cost abstractions, when to use it | `[ADVANCED]` |
-| 3.10 | **Ruby** — the language Rails made famous, concurrency model | `[CORE]` |
-| 3.11 | **PHP** — the language that powers 70% of the web, modern PHP 8.x | `[CORE]` |
-| 3.12 | **Elixir/Erlang** — BEAM VM, actor model, fault tolerance, why WhatsApp used it | `[SPECIALIST]` |
-| 3.13 | **C#/.NET** — CLR, ASP.NET Core, enterprise use cases | `[CORE]` |
-| 3.14 | **Kotlin** — JVM language, Spring/Ktor backend use | `[ADVANCED]` |
-| 3.15 | Language selection framework — how to choose the right language for a system | `[CORE]` |
-| 3.16 | Runtimes explained — what a runtime is and why it matters | `[CORE]` |
-| 3.17 | Compiled vs. interpreted vs. JIT — real performance implications | `[ADVANCED]` |
-| 3.18 | Memory management — manual (C/Rust), GC (Java/Go/Python), ownership (Rust) | `[ADVANCED]` |
-| 3.19 | Type systems — static vs. dynamic, strong vs. weak, structural vs. nominal | `[ADVANCED]` |
+| 3.1 | [**Python** — interpreted, GIL, asyncio, why it dominates data & APIs](phases/phase-03-languages-runtimes/3.01-python.md) | `[CORE]` ✅ |
+| 3.2 | [Python internals — CPython, GIL deep dive, memory management](phases/phase-03-languages-runtimes/3.02-python-internals.md) | `[ADVANCED]` ✅ |
+| 3.3 | [Python async/await — event loop, coroutines, tasks, asyncio internals](phases/phase-03-languages-runtimes/3.03-python-async.md) | `[CORE]` ✅ |
+| 3.4 | [**Node.js** — V8, event loop, libuv, non-blocking I/O model](phases/phase-03-languages-runtimes/3.04-nodejs.md) | `[CORE]` ✅ |
+| 3.5 | [Node.js internals — call stack, callback queue, microtask queue, event loop phases](phases/phase-03-languages-runtimes/3.05-nodejs-internals.md) | `[ADVANCED]` ✅ |
+| 3.6 | [**Go (Golang)** — goroutines, channels, why it was built for servers](phases/phase-03-languages-runtimes/3.06-golang.md) | `[CORE]` ✅ |
+| 3.7 | [Go internals — goroutine scheduler (M:N), garbage collector, escape analysis](phases/phase-03-languages-runtimes/3.07-golang-internals.md) | `[ADVANCED]` ✅ |
+| 3.8 | [**Java** — JVM, JIT compilation, garbage collection, Spring ecosystem](phases/phase-03-languages-runtimes/3.08-java.md) | `[CORE]` ✅ |
+| 3.9 | [**Rust** — ownership, borrowing, zero-cost abstractions, when to use it](phases/phase-03-languages-runtimes/3.09-rust.md) | `[ADVANCED]` ✅ |
+| 3.10 | [**Ruby** — the language Rails made famous, concurrency model](phases/phase-03-languages-runtimes/3.10-ruby.md) | `[CORE]` ✅ |
+| 3.11 | [**PHP** — the language that powers 70% of the web, modern PHP 8.x](phases/phase-03-languages-runtimes/3.11-php.md) | `[CORE]` ✅ |
+| 3.12 | [**Elixir/Erlang** — BEAM VM, actor model, fault tolerance, why WhatsApp used it](phases/phase-03-languages-runtimes/3.12-elixir-erlang.md) | `[SPECIALIST]` ✅ |
+| 3.13 | [**C#/.NET** — CLR, ASP.NET Core, enterprise use cases](phases/phase-03-languages-runtimes/3.13-csharp-dotnet.md) | `[CORE]` ✅ |
+| 3.14 | [**Kotlin** — JVM language, Spring/Ktor backend use](phases/phase-03-languages-runtimes/3.14-kotlin.md) | `[ADVANCED]` ✅ |
+| 3.15 | [Language selection framework — how to choose the right language for a system](phases/phase-03-languages-runtimes/3.15-language-selection.md) | `[CORE]` ✅ |
+| 3.16 | [Runtimes explained — what a runtime is and why it matters](phases/phase-03-languages-runtimes/3.16-runtimes.md) | `[CORE]` ✅ |
+| 3.17 | [Compiled vs. interpreted vs. JIT — real performance implications](phases/phase-03-languages-runtimes/3.17-compiled-interpreted-jit.md) | `[ADVANCED]` ✅ |
+| 3.18 | [Memory management — manual (C/Rust), GC (Java/Go/Python), ownership (Rust)](phases/phase-03-languages-runtimes/3.18-memory-management.md) | `[ADVANCED]` ✅ |
+| 3.19 | [Type systems — static vs. dynamic, strong vs. weak, structural vs. nominal](phases/phase-03-languages-runtimes/3.19-type-systems.md) | `[ADVANCED]` ✅ |
 
 ---
 
@@ -172,48 +172,48 @@ Say: "ready to test" → switches to quiz mode
 ### Python Frameworks
 | # | Topic | Tag |
 |---|-------|-----|
-| 4.1 | **FastAPI** — async-first, OpenAPI auto-generation, dependency injection | `[CORE]` |
-| 4.2 | **Django** — batteries-included, ORM, admin, when it's overkill | `[CORE]` |
-| 4.3 | **Flask** — minimalist, microframework, composable | `[CORE]` |
-| 4.4 | **Starlette** — the ASGI foundation under FastAPI | `[ADVANCED]` |
-| 4.5 | **Litestar (Starlite)** — FastAPI alternative, more opinionated | `[ADVANCED]` |
-| 4.6 | **Tornado** — async Python before asyncio existed | `[SPECIALIST]` |
+| 4.1 | [**FastAPI** — async-first, OpenAPI auto-generation, dependency injection](phases/phase-04-web-frameworks/4.01-fastapi.md) | `[CORE]` ✅ |
+| 4.2 | [**Django** — batteries-included, ORM, admin, when it's overkill](phases/phase-04-web-frameworks/4.02-django.md) | `[CORE]` ✅ |
+| 4.3 | [**Flask** — minimalist, microframework, composable](phases/phase-04-web-frameworks/4.03-flask.md) | `[CORE]` ✅ |
+| 4.4 | [**Starlette** — the ASGI foundation under FastAPI](phases/phase-04-web-frameworks/4.04-starlette.md) | `[ADVANCED]` ✅ |
+| 4.5 | [**Litestar (Starlite)** — FastAPI alternative, more opinionated](phases/phase-04-web-frameworks/4.05-litestar.md) | `[ADVANCED]` ✅ |
+| 4.6 | [**Tornado** — async Python before asyncio existed](phases/phase-04-web-frameworks/4.06-tornado.md) | `[SPECIALIST]` ✅ |
 
 ### Node.js Frameworks
 | # | Topic | Tag |
 |---|-------|-----|
-| 4.7 | **Express.js** — minimal, middleware-centric, the original Node framework | `[CORE]` |
-| 4.8 | **Fastify** — faster than Express, JSON schema validation built-in | `[CORE]` |
-| 4.9 | **NestJS** — opinionated, Angular-inspired, TypeScript-first | `[CORE]` |
-| 4.10 | **Hono** — ultra-fast, runs everywhere (Edge, Deno, Bun, Node) | `[ADVANCED]` |
-| 4.11 | **Elysia** — Bun-native, type-safe, high performance | `[ADVANCED]` |
+| 4.7 | [**Express.js** — minimal, middleware-centric, the original Node framework](phases/phase-04-web-frameworks/4.07-expressjs.md) | `[CORE]` ✅ |
+| 4.8 | [**Fastify** — faster than Express, JSON schema validation built-in](phases/phase-04-web-frameworks/4.08-fastify.md) | `[CORE]` ✅ |
+| 4.9 | [**NestJS** — opinionated, Angular-inspired, TypeScript-first](phases/phase-04-web-frameworks/4.09-nestjs.md) | `[CORE]` ✅ |
+| 4.10 | [**Hono** — ultra-fast, runs everywhere (Edge, Deno, Bun, Node)](phases/phase-04-web-frameworks/4.10-hono.md) | `[ADVANCED]` ✅ |
+| 4.11 | [**Elysia** — Bun-native, type-safe, high performance](phases/phase-04-web-frameworks/4.11-elysia.md) | `[ADVANCED]` ✅ |
 
 ### Go Frameworks
 | # | Topic | Tag |
 |---|-------|-----|
-| 4.12 | **net/http** — Go's stdlib, often enough by itself | `[CORE]` |
-| 4.13 | **Gin** — fast HTTP framework, most popular in Go ecosystem | `[CORE]` |
-| 4.14 | **Echo** — lightweight alternative to Gin | `[CORE]` |
-| 4.15 | **Fiber** — Express-inspired, built on fasthttp | `[ADVANCED]` |
-| 4.16 | **Chi** — lightweight, idiomatic, no magic | `[ADVANCED]` |
+| 4.12 | [**net/http** — Go's stdlib, often enough by itself](phases/phase-04-web-frameworks/4.12-go-net-http.md) | `[CORE]` ✅ |
+| 4.13 | [**Gin** — fast HTTP framework, most popular in Go ecosystem](phases/phase-04-web-frameworks/4.13-gin.md) | `[CORE]` ✅ |
+| 4.14 | [**Echo** — lightweight alternative to Gin](phases/phase-04-web-frameworks/4.14-echo.md) | `[CORE]` ✅ |
+| 4.15 | [**Fiber** — Express-inspired, built on fasthttp](phases/phase-04-web-frameworks/4.14-echo.md) | `[ADVANCED]` ✅ |
+| 4.16 | [**Chi** — lightweight, idiomatic, no magic](phases/phase-04-web-frameworks/4.14-echo.md) | `[ADVANCED]` ✅ |
 
 ### Java/Kotlin Frameworks
 | # | Topic | Tag |
 |---|-------|-----|
-| 4.17 | **Spring Boot** — the enterprise standard, dependency injection, auto-config | `[CORE]` |
-| 4.18 | **Quarkus** — GraalVM native, cloud-native Java | `[ADVANCED]` |
-| 4.19 | **Micronaut** — ahead-of-time compiled, fast startup | `[ADVANCED]` |
-| 4.20 | **Ktor** — Kotlin-native, coroutine-first | `[ADVANCED]` |
+| 4.17 | [**Spring Boot** — the enterprise standard, dependency injection, auto-config](phases/phase-04-web-frameworks/4.17-spring-boot.md) | `[CORE]` ✅ |
+| 4.18 | [**Quarkus** — GraalVM native, cloud-native Java](phases/phase-04-web-frameworks/4.18-quarkus.md) | `[ADVANCED]` ✅ |
+| 4.19 | [**Micronaut** — ahead-of-time compiled, fast startup](phases/phase-04-web-frameworks/4.18-quarkus.md) | `[ADVANCED]` ✅ |
+| 4.20 | [**Ktor** — Kotlin-native, coroutine-first](phases/phase-04-web-frameworks/4.18-quarkus.md) | `[ADVANCED]` ✅ |
 
 ### Other Frameworks
 | # | Topic | Tag |
 |---|-------|-----|
-| 4.21 | **Ruby on Rails** — the framework that defined MVC for the web | `[CORE]` |
-| 4.22 | **Laravel** (PHP) — the dominant PHP framework | `[CORE]` |
-| 4.23 | **ASP.NET Core** (C#) — high-performance, cross-platform .NET | `[CORE]` |
-| 4.24 | **Axum** (Rust) — Tokio-based, ergonomic async Rust web framework | `[SPECIALIST]` |
-| 4.25 | Framework internals — middleware chains, routing trees, request lifecycle | `[ADVANCED]` |
-| 4.26 | WSGI vs. ASGI — Python server interfaces explained | `[CORE]` |
+| 4.21 | [**Ruby on Rails** — the framework that defined MVC for the web](phases/phase-04-web-frameworks/4.21-rails.md) | `[CORE]` ✅ |
+| 4.22 | [**Laravel** (PHP) — the dominant PHP framework](phases/phase-04-web-frameworks/4.22-laravel.md) | `[CORE]` ✅ |
+| 4.23 | [**ASP.NET Core** (C#) — high-performance, cross-platform .NET](phases/phase-04-web-frameworks/4.22-laravel.md) | `[CORE]` ✅ |
+| 4.24 | [**Axum** (Rust) — Tokio-based, ergonomic async Rust web framework](phases/phase-04-web-frameworks/4.22-laravel.md) | `[SPECIALIST]` ✅ |
+| 4.25 | [Framework internals — middleware chains, routing trees, request lifecycle](phases/phase-04-web-frameworks/4.25-framework-internals.md) | `[ADVANCED]` ✅ |
+| 4.26 | [WSGI vs. ASGI — Python server interfaces explained](phases/phase-04-web-frameworks/4.26-wsgi-asgi.md) | `[CORE]` ✅ |
 
 ---
 
