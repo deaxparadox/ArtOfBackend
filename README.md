@@ -438,30 +438,30 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 9.1 | [Performance fundamentals — measuring before optimizing](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.2 | [Latency percentiles — p50, p95, p99, p999 — why averages lie](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.3 | [Little's Law — the relationship between throughput, latency, concurrency](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.4 | [Profiling Python — cProfile, py-spy, memory_profiler](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.5 | [Profiling Node.js — clinic.js, --prof, heap snapshots](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.6 | [Profiling Go — pprof, trace, benchmarks](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.7 | [Database performance — slow query logs, pg_stat_statements](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.8 | [N+1 queries — detection, DataLoader pattern, eager loading](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.9 | [Connection pooling deep dive — PgBouncer, HikariCP, pool sizing formula](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.10 | [Async I/O and why it matters — blocking vs. non-blocking under load](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.11 | [Thread pools — sizing, saturation, starvation](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.12 | [Horizontal vs. vertical scaling — when each is appropriate](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.13 | [Load testing — k6, Locust, Gatling, JMeter — designing realistic tests](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.14 | [Chaos engineering — intentional failure, Netflix Chaos Monkey](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.15 | [SLOs, SLAs, SLIs — defining and measuring reliability](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.16 | [Error budgets — how reliability is traded against velocity](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.17 | [Bulkhead pattern — isolating failures to prevent cascade](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.18 | [Timeout + retry + fallback — the reliability triad](phases/phase-09-performance-reliability/9.01-performance.md) | `[CORE]` ✅ |
-| 9.19 | [Blue/green deployment — zero-downtime releases](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.20 | [Canary deployments — releasing to 1% of traffic first](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.21 | [Database connection exhaustion — the silent killer](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.22 | [Memory leaks — detection, heap dumps, common patterns](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
-| 9.23 | [CPU profiling in production — flame graphs](phases/phase-09-performance-reliability/9.01-performance.md) | `[SPECIALIST]` ✅ |
-| 9.24 | [Goroutine/thread leaks](phases/phase-09-performance-reliability/9.01-performance.md) | `[ADVANCED]` ✅ |
+| 9.1 | [Performance fundamentals — measuring before optimizing](phases/phase-09-performance-reliability/9.01-performance-fundamentals.md) | `[CORE]` ✅ |
+| 9.2 | [Latency percentiles — p50, p95, p99, p999 — why averages lie](phases/phase-09-performance-reliability/9.02-latency-percentiles.md) | `[CORE]` ✅ |
+| 9.3 | [Little's Law — the relationship between throughput, latency, concurrency](phases/phase-09-performance-reliability/9.03-littles-law.md) | `[ADVANCED]` ✅ |
+| 9.4 | [Profiling Python — cProfile, py-spy, memory_profiler](phases/phase-09-performance-reliability/9.04-profiling-python.md) | `[CORE]` ✅ |
+| 9.5 | [Profiling Node.js — clinic.js, --prof, heap snapshots](phases/phase-09-performance-reliability/9.05-profiling-nodejs.md) | `[CORE]` ✅ |
+| 9.6 | [Profiling Go — pprof, trace, benchmarks](phases/phase-09-performance-reliability/9.06-profiling-go.md) | `[CORE]` ✅ |
+| 9.7 | [Database performance — slow query logs, pg_stat_statements](phases/phase-09-performance-reliability/9.07-database-performance.md) | `[CORE]` ✅ |
+| 9.8 | [N+1 queries — detection, DataLoader pattern, eager loading](phases/phase-09-performance-reliability/9.08-n-plus-one.md) | `[CORE]` ✅ |
+| 9.9 | [Connection pooling deep dive — PgBouncer, HikariCP, pool sizing formula](phases/phase-09-performance-reliability/9.09-connection-pooling.md) | `[ADVANCED]` ✅ |
+| 9.10 | [Async I/O and why it matters — blocking vs. non-blocking under load](phases/phase-09-performance-reliability/9.10-async-io.md) | `[CORE]` ✅ |
+| 9.11 | [Thread pools — sizing, saturation, starvation](phases/phase-09-performance-reliability/9.11-thread-pools.md) | `[ADVANCED]` ✅ |
+| 9.12 | [Horizontal vs. vertical scaling — when each is appropriate](phases/phase-09-performance-reliability/9.12-scaling.md) | `[CORE]` ✅ |
+| 9.13 | [Load testing — k6, Locust, Gatling, JMeter — designing realistic tests](phases/phase-09-performance-reliability/9.13-load-testing.md) | `[CORE]` ✅ |
+| 9.14 | [Chaos engineering — intentional failure, Netflix Chaos Monkey](phases/phase-09-performance-reliability/9.14-chaos-engineering.md) | `[ADVANCED]` ✅ |
+| 9.15 | [SLOs, SLAs, SLIs — defining and measuring reliability](phases/phase-09-performance-reliability/9.15-slos.md) | `[ADVANCED]` ✅ |
+| 9.16 | [Error budgets — how reliability is traded against velocity](phases/phase-09-performance-reliability/9.15-slos.md) | `[ADVANCED]` ✅ |
+| 9.17 | [Bulkhead pattern — isolating failures to prevent cascade](phases/phase-09-performance-reliability/9.17-bulkhead.md) | `[ADVANCED]` ✅ |
+| 9.18 | [Timeout + retry + fallback — the reliability triad](phases/phase-09-performance-reliability/9.17-bulkhead.md) | `[CORE]` ✅ |
+| 9.19 | [Blue/green deployment — zero-downtime releases](phases/phase-09-performance-reliability/9.19-blue-green.md) | `[ADVANCED]` ✅ |
+| 9.20 | [Canary deployments — releasing to 1% of traffic first](phases/phase-09-performance-reliability/9.19-blue-green.md) | `[ADVANCED]` ✅ |
+| 9.21 | [Database connection exhaustion — the silent killer](phases/phase-09-performance-reliability/9.21-connection-exhaustion.md) | `[ADVANCED]` ✅ |
+| 9.22 | [Memory leaks — detection, heap dumps, common patterns](phases/phase-09-performance-reliability/9.21-connection-exhaustion.md) | `[ADVANCED]` ✅ |
+| 9.23 | [CPU profiling in production — flame graphs](phases/phase-09-performance-reliability/9.23-flame-graphs.md) | `[SPECIALIST]` ✅ |
+| 9.24 | [Goroutine/thread leaks](phases/phase-09-performance-reliability/9.23-flame-graphs.md) | `[ADVANCED]` ✅ |
 
 ---
 
@@ -472,45 +472,45 @@ Say: "ready to test" → switches to quiz mode
 ### Containers
 | # | Topic | Tag |
 |---|-------|-----|
-| 10.1 | [**Docker** — images, containers, layers, the Dockerfile](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.2 | [Docker internals — namespaces, cgroups, union filesystems](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.3 | [Writing production Dockerfiles — multi-stage builds, minimizing layers](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.4 | [Docker Compose — local multi-service development](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.5 | [Container registries — Docker Hub, ECR, GCR, GHCR](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.6 | [**Kubernetes (K8s)** — the container orchestration standard](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.7 | [Kubernetes architecture — control plane, worker nodes, etcd](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.8 | [Kubernetes objects — Pods, Deployments, Services, ConfigMaps, Secrets](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.9 | [Kubernetes networking — Services, Ingress, NetworkPolicies](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.10 | [Helm — the Kubernetes package manager](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.11 | [**Podman** — Docker alternative, daemonless containers](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[SPECIALIST]` ✅ |
+| 10.1 | [**Docker** — images, containers, layers, the Dockerfile](phases/phase-10-infrastructure-devops/10.01-docker.md) | `[CORE]` ✅ |
+| 10.2 | [Docker internals — namespaces, cgroups, union filesystems](phases/phase-10-infrastructure-devops/10.02-docker-internals.md) | `[ADVANCED]` ✅ |
+| 10.3 | [Writing production Dockerfiles — multi-stage builds, minimizing layers](phases/phase-10-infrastructure-devops/10.03-production-dockerfiles.md) | `[CORE]` ✅ |
+| 10.4 | [Docker Compose — local multi-service development](phases/phase-10-infrastructure-devops/10.04-docker-compose.md) | `[CORE]` ✅ |
+| 10.5 | [Container registries — Docker Hub, ECR, GCR, GHCR](phases/phase-10-infrastructure-devops/10.05-container-registries.md) | `[CORE]` ✅ |
+| 10.6 | [**Kubernetes (K8s)** — the container orchestration standard](phases/phase-10-infrastructure-devops/10.06-kubernetes.md) | `[ADVANCED]` ✅ |
+| 10.7 | [Kubernetes architecture — control plane, worker nodes, etcd](phases/phase-10-infrastructure-devops/10.06-kubernetes.md) | `[ADVANCED]` ✅ |
+| 10.8 | [Kubernetes objects — Pods, Deployments, Services, ConfigMaps, Secrets](phases/phase-10-infrastructure-devops/10.06-kubernetes.md) | `[ADVANCED]` ✅ |
+| 10.9 | [Kubernetes networking — Services, Ingress, NetworkPolicies](phases/phase-10-infrastructure-devops/10.06-kubernetes.md) | `[ADVANCED]` ✅ |
+| 10.10 | [Helm — the Kubernetes package manager](phases/phase-10-infrastructure-devops/10.06-kubernetes.md) | `[ADVANCED]` ✅ |
+| 10.11 | [**Podman** — Docker alternative, daemonless containers](phases/phase-10-infrastructure-devops/10.11-podman.md) | `[SPECIALIST]` ✅ |
 
 ### CI/CD
 | # | Topic | Tag |
 |---|-------|-----|
-| 10.12 | [CI/CD fundamentals — the pipeline: lint, test, build, deploy](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.13 | [**GitHub Actions** — workflows, jobs, steps, marketplace actions](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.14 | [**GitLab CI** — .gitlab-ci.yml, runners, artifacts](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.15 | [**Jenkins** — the original CI, declarative pipelines, plugins](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.16 | [**CircleCI / Buildkite / Travis CI**](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.17 | [Deployment strategies — recreate, rolling, blue-green, canary](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.18 | [Infrastructure as Code (IaC) — why you must never click in a console](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
+| 10.12 | [CI/CD fundamentals — the pipeline: lint, test, build, deploy](phases/phase-10-infrastructure-devops/10.12-cicd.md) | `[CORE]` ✅ |
+| 10.13 | [**GitHub Actions** — workflows, jobs, steps, marketplace actions](phases/phase-10-infrastructure-devops/10.12-cicd.md) | `[CORE]` ✅ |
+| 10.14 | [**GitLab CI** — .gitlab-ci.yml, runners, artifacts](phases/phase-10-infrastructure-devops/10.12-cicd.md) | `[CORE]` ✅ |
+| 10.15 | [**Jenkins** — the original CI, declarative pipelines, plugins](phases/phase-10-infrastructure-devops/10.12-cicd.md) | `[ADVANCED]` ✅ |
+| 10.16 | [**CircleCI / Buildkite / Travis CI**](phases/phase-10-infrastructure-devops/10.12-cicd.md) | `[ADVANCED]` ✅ |
+| 10.17 | [Deployment strategies — recreate, rolling, blue-green, canary](phases/phase-10-infrastructure-devops/10.12-cicd.md) | `[CORE]` ✅ |
+| 10.18 | [Infrastructure as Code (IaC) — why you must never click in a console](phases/phase-10-infrastructure-devops/10.12-cicd.md) | `[CORE]` ✅ |
 
 ### Infrastructure as Code
 | # | Topic | Tag |
 |---|-------|-----|
-| 10.19 | [**Terraform** — declarative IaC, providers, state management](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.20 | [**Pulumi** — IaC with real programming languages](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.21 | [**Ansible** — configuration management, idempotent playbooks](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.22 | [**Chef / Puppet** — configuration management at enterprise scale](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[SPECIALIST]` ✅ |
+| 10.19 | [**Terraform** — declarative IaC, providers, state management](phases/phase-10-infrastructure-devops/10.19-terraform.md) | `[CORE]` ✅ |
+| 10.20 | [**Pulumi** — IaC with real programming languages](phases/phase-10-infrastructure-devops/10.19-terraform.md) | `[ADVANCED]` ✅ |
+| 10.21 | [**Ansible** — configuration management, idempotent playbooks](phases/phase-10-infrastructure-devops/10.19-terraform.md) | `[ADVANCED]` ✅ |
+| 10.22 | [**Chef / Puppet** — configuration management at enterprise scale](phases/phase-10-infrastructure-devops/10.19-terraform.md) | `[SPECIALIST]` ✅ |
 
 ### Web Servers & Reverse Proxies
 | # | Topic | Tag |
 |---|-------|-----|
-| 10.23 | [**Nginx** — the most deployed web server, config deep dive](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
-| 10.24 | [**Caddy** — automatic HTTPS, modern Nginx alternative](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.25 | [**Traefik** — cloud-native reverse proxy, Docker/K8s-native](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.26 | [**HAProxy** — the high-performance load balancer](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[ADVANCED]` ✅ |
-| 10.27 | [Process managers — Supervisor, systemd, PM2](phases/phase-10-infrastructure-devops/10.01-infrastructure.md) | `[CORE]` ✅ |
+| 10.23 | [**Nginx** — the most deployed web server, config deep dive](phases/phase-10-infrastructure-devops/10.23-nginx.md) | `[CORE]` ✅ |
+| 10.24 | [**Caddy** — automatic HTTPS, modern Nginx alternative](phases/phase-10-infrastructure-devops/10.23-nginx.md) | `[ADVANCED]` ✅ |
+| 10.25 | [**Traefik** — cloud-native reverse proxy, Docker/K8s-native](phases/phase-10-infrastructure-devops/10.23-nginx.md) | `[ADVANCED]` ✅ |
+| 10.26 | [**HAProxy** — the high-performance load balancer](phases/phase-10-infrastructure-devops/10.23-nginx.md) | `[ADVANCED]` ✅ |
+| 10.27 | [Process managers — Supervisor, systemd, PM2](phases/phase-10-infrastructure-devops/10.23-nginx.md) | `[CORE]` ✅ |
 
 ---
 
@@ -521,57 +521,57 @@ Say: "ready to test" → switches to quiz mode
 ### AWS (Amazon Web Services)
 | # | Topic | Tag |
 |---|-------|-----|
-| 11.1 | [AWS fundamentals — regions, AZs, the global infrastructure](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.2 | [**EC2** — virtual machines, instance types, spot vs. on-demand](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.3 | [**S3** — object storage, the backbone of the internet](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.4 | [**RDS** — managed relational databases (Postgres, MySQL, Aurora)](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.5 | [**Aurora** — AWS's high-performance MySQL/Postgres-compatible DB](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.6 | [**DynamoDB** — managed NoSQL, single-table design patterns](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.7 | [**ElastiCache** — managed Redis/Memcached](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.8 | [**Lambda** — serverless functions, cold starts, execution limits](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.9 | [**API Gateway** — managed HTTP/WebSocket APIs in front of Lambda](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.10 | [**SQS** — simple queue service, visibility timeout, DLQ](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.11 | [**SNS** — pub/sub, fan-out to SQS, email, SMS](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.12 | [**ECS / EKS** — containers on AWS (Fargate vs. EC2-backed)](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.13 | [**CloudFront** — AWS CDN](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.14 | [**VPC** — virtual private cloud, subnets, routing, security groups](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.15 | [**IAM** — identity and access management, least-privilege principle](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.16 | [**Secrets Manager / SSM Parameter Store**](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.17 | [**CloudWatch** — metrics, logs, alarms, dashboards](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.18 | [**Route 53** — DNS management, health checks, routing policies](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.19 | [**Kinesis** — real-time data streaming](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[SPECIALIST]` ✅ |
-| 11.20 | [**Step Functions** — serverless workflow orchestration](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
+| 11.1 | [AWS fundamentals — regions, AZs, the global infrastructure](phases/phase-11-cloud-serverless/11.01-aws-fundamentals.md) | `[CORE]` ✅ |
+| 11.2 | [**EC2** — virtual machines, instance types, spot vs. on-demand](phases/phase-11-cloud-serverless/11.02-aws-compute.md) | `[CORE]` ✅ |
+| 11.3 | [**S3** — object storage, the backbone of the internet](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[CORE]` ✅ |
+| 11.4 | [**RDS** — managed relational databases (Postgres, MySQL, Aurora)](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[CORE]` ✅ |
+| 11.5 | [**Aurora** — AWS's high-performance MySQL/Postgres-compatible DB](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[ADVANCED]` ✅ |
+| 11.6 | [**DynamoDB** — managed NoSQL, single-table design patterns](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[ADVANCED]` ✅ |
+| 11.7 | [**ElastiCache** — managed Redis/Memcached](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[CORE]` ✅ |
+| 11.8 | [**Lambda** — serverless functions, cold starts, execution limits](phases/phase-11-cloud-serverless/11.02-aws-compute.md) | `[CORE]` ✅ |
+| 11.9 | [**API Gateway** — managed HTTP/WebSocket APIs in front of Lambda](phases/phase-11-cloud-serverless/11.02-aws-compute.md) | `[CORE]` ✅ |
+| 11.10 | [**SQS** — simple queue service, visibility timeout, DLQ](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[CORE]` ✅ |
+| 11.11 | [**SNS** — pub/sub, fan-out to SQS, email, SMS](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[CORE]` ✅ |
+| 11.12 | [**ECS / EKS** — containers on AWS (Fargate vs. EC2-backed)](phases/phase-11-cloud-serverless/11.02-aws-compute.md) | `[ADVANCED]` ✅ |
+| 11.13 | [**CloudFront** — AWS CDN](phases/phase-11-cloud-serverless/11.02-aws-compute.md) | `[CORE]` ✅ |
+| 11.14 | [**VPC** — virtual private cloud, subnets, routing, security groups](phases/phase-11-cloud-serverless/11.04-aws-networking.md) | `[ADVANCED]` ✅ |
+| 11.15 | [**IAM** — identity and access management, least-privilege principle](phases/phase-11-cloud-serverless/11.01-aws-fundamentals.md) | `[CORE]` ✅ |
+| 11.16 | [**Secrets Manager / SSM Parameter Store**](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[CORE]` ✅ |
+| 11.17 | [**CloudWatch** — metrics, logs, alarms, dashboards](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[CORE]` ✅ |
+| 11.18 | [**Route 53** — DNS management, health checks, routing policies](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[ADVANCED]` ✅ |
+| 11.19 | [**Kinesis** — real-time data streaming](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[SPECIALIST]` ✅ |
+| 11.20 | [**Step Functions** — serverless workflow orchestration](phases/phase-11-cloud-serverless/11.03-aws-storage-databases.md) | `[ADVANCED]` ✅ |
 
 ### GCP (Google Cloud Platform)
 | # | Topic | Tag |
 |---|-------|-----|
-| 11.21 | [**Cloud Run** — serverless containers (the best of both worlds)](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.22 | [**GKE** — managed Kubernetes](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.23 | [**Cloud SQL** — managed Postgres/MySQL](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.24 | [**Firestore** — managed document DB](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.25 | [**BigQuery** — serverless analytics at scale](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[SPECIALIST]` ✅ |
-| 11.26 | [**Pub/Sub** — managed message queue](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.27 | [**Cloud Storage (GCS)** — object storage](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
+| 11.21 | [**Cloud Run** — serverless containers (the best of both worlds)](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[CORE]` ✅ |
+| 11.22 | [**GKE** — managed Kubernetes](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[ADVANCED]` ✅ |
+| 11.23 | [**Cloud SQL** — managed Postgres/MySQL](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[CORE]` ✅ |
+| 11.24 | [**Firestore** — managed document DB](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[CORE]` ✅ |
+| 11.25 | [**BigQuery** — serverless analytics at scale](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[SPECIALIST]` ✅ |
+| 11.26 | [**Pub/Sub** — managed message queue](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[CORE]` ✅ |
+| 11.27 | [**Cloud Storage (GCS)** — object storage](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[CORE]` ✅ |
 
 ### Azure
 | # | Topic | Tag |
 |---|-------|-----|
-| 11.28 | [**Azure Functions** — serverless compute](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.29 | [**Azure Cosmos DB** — globally distributed NoSQL](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.30 | [**Azure Service Bus** — enterprise messaging](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.31 | [**AKS** — managed Kubernetes](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
+| 11.28 | [**Azure Functions** — serverless compute](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[CORE]` ✅ |
+| 11.29 | [**Azure Cosmos DB** — globally distributed NoSQL](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[ADVANCED]` ✅ |
+| 11.30 | [**Azure Service Bus** — enterprise messaging](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[ADVANCED]` ✅ |
+| 11.31 | [**AKS** — managed Kubernetes](phases/phase-11-cloud-serverless/11.05-gcp-azure.md) | `[ADVANCED]` ✅ |
 
 ### Serverless & Edge
 | # | Topic | Tag |
 |---|-------|-----|
-| 11.32 | [Serverless fundamentals — functions, cold starts, stateless constraints](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.33 | [Cold start problem — causes, mitigation, provisioned concurrency](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.34 | [**Vercel / Netlify** — frontend-focused, edge functions](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.35 | [**Cloudflare Workers** — edge compute at 300+ PoPs, V8 isolates](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.36 | [**Cloudflare D1 / KV / R2 / Durable Objects** — edge data primitives](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.37 | [**Fly.io** — deploy containers globally, close to users](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
-| 11.38 | [**Railway / Render** — simpler deployment platforms](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[CORE]` ✅ |
-| 11.39 | [Edge computing vs. serverless vs. containers — the trade-off matrix](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
+| 11.32 | [Serverless fundamentals — functions, cold starts, stateless constraints](phases/phase-11-cloud-serverless/11.06-serverless-edge.md) | `[CORE]` ✅ |
+| 11.33 | [Cold start problem — causes, mitigation, provisioned concurrency](phases/phase-11-cloud-serverless/11.06-serverless-edge.md) | `[ADVANCED]` ✅ |
+| 11.34 | [**Vercel / Netlify** — frontend-focused, edge functions](phases/phase-11-cloud-serverless/11.06-serverless-edge.md) | `[CORE]` ✅ |
+| 11.35 | [**Cloudflare Workers** — edge compute at 300+ PoPs, V8 isolates](phases/phase-11-cloud-serverless/11.06-serverless-edge.md) | `[ADVANCED]` ✅ |
+| 11.36 | [**Cloudflare D1 / KV / R2 / Durable Objects** — edge data primitives](phases/phase-11-cloud-serverless/11.06-serverless-edge.md) | `[ADVANCED]` ✅ |
+| 11.37 | [**Fly.io** — deploy containers globally, close to users](phases/phase-11-cloud-serverless/11.06-serverless-edge.md) | `[ADVANCED]` ✅ |
+| 11.38 | [**Railway / Render** — simpler deployment platforms](phases/phase-11-cloud-serverless/11.06-serverless-edge.md) | `[CORE]` ✅ |
+| 11.39 | [Edge computing vs. serverless vs. containers — the trade-off matrix](phases/phase-11-cloud-serverless/11.06-serverless-edge.md) | `[ADVANCED]` ✅ |
 | 11.40 | [Cost modeling cloud architectures — avoiding bill shock](phases/phase-11-cloud-serverless/11.01-cloud.md) | `[ADVANCED]` ✅ |
 
 ---
