@@ -692,26 +692,26 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 15.1 | [Domain-Driven Design (DDD) — ubiquitous language, bounded contexts](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.2 | [Hexagonal architecture (Ports & Adapters)](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.3 | [Clean architecture — independence from frameworks, databases, UI](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.4 | [Repository pattern — abstracting data access](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.5 | [Unit of Work pattern](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.6 | [CQRS — separating read and write models](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.7 | [Event sourcing — the complete guide](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.8 | [Strangler fig pattern — migrating monoliths](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.9 | [Sidecar pattern — co-located helper processes](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[SPECIALIST]` ✅ |
-| 15.10 | [Anti-corruption layer — protecting your domain from external models](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.11 | [Shared kernel — what two bounded contexts can share](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.12 | [Twelve-factor app methodology — the cloud-native standards](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[CORE]` ✅ |
-| 15.13 | [Multi-tenancy architectures — silo, pool, hybrid](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.14 | [Geo-distribution — data residency, latency routing, replication](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[SPECIALIST]` ✅ |
-| 15.15 | [Database sharding — horizontal partitioning strategies](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.16 | [Consistent hashing — the algorithm behind distributed caches](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.17 | [Idempotent APIs and at-least-once delivery](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.18 | [The Outbox pattern — guaranteed event publishing](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[ADVANCED]` ✅ |
-| 15.19 | [Change Data Capture (CDC) — Debezium, replication slots](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[SPECIALIST]` ✅ |
-| 15.20 | [Read-through architecture with write-behind](phases/phase-15-architecture-patterns/15.01-patterns.md) | `[SPECIALIST]` ✅ |
+| 15.1 | [Domain-Driven Design (DDD) — ubiquitous language, bounded contexts](phases/phase-15-architecture-patterns/15.01-ddd.md) | `[ADVANCED]` ✅ |
+| 15.2 | [Hexagonal architecture (Ports & Adapters)](phases/phase-15-architecture-patterns/15.02-hexagonal-architecture.md) | `[ADVANCED]` ✅ |
+| 15.3 | [Clean architecture — independence from frameworks, databases, UI](phases/phase-15-architecture-patterns/15.02-hexagonal-architecture.md) | `[ADVANCED]` ✅ |
+| 15.4 | [Repository pattern — abstracting data access](phases/phase-15-architecture-patterns/15.04-repository-pattern.md) | `[ADVANCED]` ✅ |
+| 15.5 | [Unit of Work pattern](phases/phase-15-architecture-patterns/15.04-repository-pattern.md) | `[ADVANCED]` ✅ |
+| 15.6 | [CQRS — separating read and write models](phases/phase-15-architecture-patterns/15.06-cqrs.md) | `[ADVANCED]` ✅ |
+| 15.7 | [Event sourcing — the complete guide](phases/phase-15-architecture-patterns/15.06-cqrs.md) | `[ADVANCED]` ✅ |
+| 15.8 | [Strangler fig pattern — migrating monoliths](phases/phase-15-architecture-patterns/15.08-strangler-fig.md) | `[ADVANCED]` ✅ |
+| 15.9 | [Sidecar pattern — co-located helper processes](phases/phase-15-architecture-patterns/15.08-strangler-fig.md) | `[SPECIALIST]` ✅ |
+| 15.10 | [Anti-corruption layer — protecting your domain from external models](phases/phase-15-architecture-patterns/15.08-strangler-fig.md) | `[ADVANCED]` ✅ |
+| 15.11 | [Shared kernel — what two bounded contexts can share](phases/phase-15-architecture-patterns/15.08-strangler-fig.md) | `[ADVANCED]` ✅ |
+| 15.12 | [Twelve-factor app methodology — the cloud-native standards](phases/phase-15-architecture-patterns/15.08-strangler-fig.md) | `[CORE]` ✅ |
+| 15.13 | [Multi-tenancy architectures — silo, pool, hybrid](phases/phase-15-architecture-patterns/15.13-multi-tenancy.md) | `[ADVANCED]` ✅ |
+| 15.14 | [Geo-distribution — data residency, latency routing, replication](phases/phase-15-architecture-patterns/15.14-geo-distribution.md) | `[SPECIALIST]` ✅ |
+| 15.15 | [Database sharding — horizontal partitioning strategies](phases/phase-15-architecture-patterns/15.14-geo-distribution.md) | `[ADVANCED]` ✅ |
+| 15.16 | [Consistent hashing — the algorithm behind distributed caches](phases/phase-15-architecture-patterns/15.14-geo-distribution.md) | `[ADVANCED]` ✅ |
+| 15.17 | [Idempotent APIs and at-least-once delivery](phases/phase-15-architecture-patterns/15.17-idempotency.md) | `[ADVANCED]` ✅ |
+| 15.18 | [The Outbox pattern — guaranteed event publishing](phases/phase-15-architecture-patterns/15.17-idempotency.md) | `[ADVANCED]` ✅ |
+| 15.19 | [Change Data Capture (CDC) — Debezium, replication slots](phases/phase-15-architecture-patterns/15.17-idempotency.md) | `[SPECIALIST]` ✅ |
+| 15.20 | [Read-through architecture with write-behind](phases/phase-15-architecture-patterns/15.17-idempotency.md) | `[SPECIALIST]` ✅ |
 
 ---
 
@@ -721,21 +721,21 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 16.1 | [ETL vs. ELT — extract-transform-load vs. extract-load-transform](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[ADVANCED]` ✅ |
-| 16.2 | [Batch processing vs. stream processing](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[ADVANCED]` ✅ |
-| 16.3 | [**Apache Spark** — distributed batch processing](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.4 | [**Apache Flink** — stateful stream processing](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.5 | [**Apache Beam** — unified batch + streaming model](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.6 | [**dbt** — data build tool, SQL-based transformations](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.7 | [**Airbyte** — open-source data integration](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.8 | [**Fivetran** — managed data pipelines](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.9 | [Data lakes — storing raw data at scale](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.10 | [**Apache Hadoop** — the original distributed data processing](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.11 | [**Apache Hive** — SQL on Hadoop](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.12 | [**Prefect / Apache Airflow / Dagster** — workflow orchestration](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.13 | [Schema evolution — handling changing data structures over time](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[ADVANCED]` ✅ |
-| 16.14 | [**Apache Avro** — schema-based serialization, schema registry](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
-| 16.15 | [**Parquet / ORC** — columnar file formats](phases/phase-16-data-engineering/16.01-data-engineering.md) | `[SPECIALIST]` ✅ |
+| 16.1 | [ETL vs. ELT — extract-transform-load vs. extract-load-transform](phases/phase-16-data-engineering/16.01-etl-vs-elt.md) | `[ADVANCED]` ✅ |
+| 16.2 | [Batch processing vs. stream processing](phases/phase-16-data-engineering/16.02-batch-vs-stream.md) | `[ADVANCED]` ✅ |
+| 16.3 | [**Apache Spark** — distributed batch processing](phases/phase-16-data-engineering/16.03-spark.md) | `[SPECIALIST]` ✅ |
+| 16.4 | [**Apache Flink** — stateful stream processing](phases/phase-16-data-engineering/16.04-flink.md) | `[SPECIALIST]` ✅ |
+| 16.5 | [**Apache Beam** — unified batch + streaming model](phases/phase-16-data-engineering/16.04-flink.md) | `[SPECIALIST]` ✅ |
+| 16.6 | [**dbt** — data build tool, SQL-based transformations](phases/phase-16-data-engineering/16.06-dbt.md) | `[SPECIALIST]` ✅ |
+| 16.7 | [**Airbyte** — open-source data integration](phases/phase-16-data-engineering/16.07-airbyte-fivetran.md) | `[SPECIALIST]` ✅ |
+| 16.8 | [**Fivetran** — managed data pipelines](phases/phase-16-data-engineering/16.07-airbyte-fivetran.md) | `[SPECIALIST]` ✅ |
+| 16.9 | [Data lakes — storing raw data at scale](phases/phase-16-data-engineering/16.09-data-lakes.md) | `[SPECIALIST]` ✅ |
+| 16.10 | [**Apache Hadoop** — the original distributed data processing](phases/phase-16-data-engineering/16.09-data-lakes.md) | `[SPECIALIST]` ✅ |
+| 16.11 | [**Apache Hive** — SQL on Hadoop](phases/phase-16-data-engineering/16.09-data-lakes.md) | `[SPECIALIST]` ✅ |
+| 16.12 | [**Prefect / Apache Airflow / Dagster** — workflow orchestration](phases/phase-16-data-engineering/16.12-workflow-orchestration.md) | `[SPECIALIST]` ✅ |
+| 16.13 | [Schema evolution — handling changing data structures over time](phases/phase-16-data-engineering/16.13-schema-evolution.md) | `[ADVANCED]` ✅ |
+| 16.14 | [**Apache Avro** — schema-based serialization, schema registry](phases/phase-16-data-engineering/16.13-schema-evolution.md) | `[SPECIALIST]` ✅ |
+| 16.15 | [**Parquet / ORC** — columnar file formats](phases/phase-16-data-engineering/16.13-schema-evolution.md) | `[SPECIALIST]` ✅ |
 
 ---
 
@@ -745,22 +745,22 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 17.1 | [Serving ML models — REST API wrappers, latency, batching](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
-| 17.2 | [**ONNX** — open neural network exchange format](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[SPECIALIST]` ✅ |
-| 17.3 | [**TensorFlow Serving / TorchServe** — production ML model servers](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[SPECIALIST]` ✅ |
-| 17.4 | [**Triton Inference Server** (NVIDIA) — GPU inference at scale](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[SPECIALIST]` ✅ |
-| 17.5 | [LLM APIs — integrating OpenAI, Anthropic, Gemini, Cohere APIs](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
-| 17.6 | [LLM inference infrastructure — vLLM, Ollama, llama.cpp](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
-| 17.7 | [RAG (Retrieval Augmented Generation) backends](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
-| 17.8 | [Vector search pipelines — embedding, indexing, querying](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
-| 17.9 | [**LangChain / LlamaIndex** — LLM application frameworks](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
-| 17.10 | [Prompt caching and token optimization in LLM backends](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
-| 17.11 | [AI agent backends — tool calling, orchestration, memory](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
-| 17.12 | [Feature stores — **Feast, Tecton, Hopsworks**](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[SPECIALIST]` ✅ |
-| 17.13 | [Model registries — **MLflow, DVC, Weights & Biases**](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[SPECIALIST]` ✅ |
-| 17.14 | [**BentoML / Ray Serve** — ML model serving frameworks](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[SPECIALIST]` ✅ |
-| 17.15 | [GPU infrastructure for AI — CUDA basics, multi-GPU, distributed training](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[SPECIALIST]` ✅ |
-| 17.16 | [Streaming LLM responses — server-sent events + LLM](phases/phase-17-ai-ml-backend/17.01-ai-ml.md) | `[ADVANCED]` ✅ |
+| 17.1 | [Serving ML models — REST API wrappers, latency, batching](phases/phase-17-ai-ml-backend/17.01-serving-ml-models.md) | `[ADVANCED]` ✅ |
+| 17.2 | [**ONNX** — open neural network exchange format](phases/phase-17-ai-ml-backend/17.02-onnx.md) | `[SPECIALIST]` ✅ |
+| 17.3 | [**TensorFlow Serving / TorchServe** — production ML model servers](phases/phase-17-ai-ml-backend/17.02-onnx.md) | `[SPECIALIST]` ✅ |
+| 17.4 | [**Triton Inference Server** (NVIDIA) — GPU inference at scale](phases/phase-17-ai-ml-backend/17.02-onnx.md) | `[SPECIALIST]` ✅ |
+| 17.5 | [LLM APIs — integrating OpenAI, Anthropic, Gemini, Cohere APIs](phases/phase-17-ai-ml-backend/17.05-llm-apis.md) | `[ADVANCED]` ✅ |
+| 17.6 | [LLM inference infrastructure — vLLM, Ollama, llama.cpp](phases/phase-17-ai-ml-backend/17.06-llm-inference.md) | `[ADVANCED]` ✅ |
+| 17.7 | [RAG (Retrieval Augmented Generation) backends](phases/phase-17-ai-ml-backend/17.07-rag.md) | `[ADVANCED]` ✅ |
+| 17.8 | [Vector search pipelines — embedding, indexing, querying](phases/phase-17-ai-ml-backend/17.07-rag.md) | `[ADVANCED]` ✅ |
+| 17.9 | [**LangChain / LlamaIndex** — LLM application frameworks](phases/phase-17-ai-ml-backend/17.09-langchain.md) | `[ADVANCED]` ✅ |
+| 17.10 | [Prompt caching and token optimization in LLM backends](phases/phase-17-ai-ml-backend/17.10-prompt-caching.md) | `[ADVANCED]` ✅ |
+| 17.11 | [AI agent backends — tool calling, orchestration, memory](phases/phase-17-ai-ml-backend/17.11-agents.md) | `[ADVANCED]` ✅ |
+| 17.12 | [Feature stores — **Feast, Tecton, Hopsworks**](phases/phase-17-ai-ml-backend/17.12-feature-stores.md) | `[SPECIALIST]` ✅ |
+| 17.13 | [Model registries — **MLflow, DVC, Weights & Biases**](phases/phase-17-ai-ml-backend/17.13-model-registries.md) | `[SPECIALIST]` ✅ |
+| 17.14 | [**BentoML / Ray Serve** — ML model serving frameworks](phases/phase-17-ai-ml-backend/17.14-bentoml-ray-serve.md) | `[SPECIALIST]` ✅ |
+| 17.15 | [GPU infrastructure for AI — CUDA basics, multi-GPU, distributed training](phases/phase-17-ai-ml-backend/17.15-gpu-infrastructure.md) | `[SPECIALIST]` ✅ |
+| 17.16 | [Streaming LLM responses — server-sent events + LLM](phases/phase-17-ai-ml-backend/17.16-streaming-llm.md) | `[ADVANCED]` ✅ |
 
 ---
 
@@ -770,26 +770,26 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 18.1 | [The three pillars of observability — logs, metrics, traces](phases/phase-18-observability-sre/18.01-observability.md) | `[CORE]` ✅ |
-| 18.2 | [Structured logging — JSON logs, log levels, what to include](phases/phase-18-observability-sre/18.01-observability.md) | `[CORE]` ✅ |
-| 18.3 | [**Elasticsearch + Kibana (ELK Stack)** — log aggregation and visualization](phases/phase-18-observability-sre/18.01-observability.md) | `[CORE]` ✅ |
-| 18.4 | [**Grafana Loki** — log aggregation, cheaper ELK alternative](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.5 | [Metrics fundamentals — counters, gauges, histograms, summaries](phases/phase-18-observability-sre/18.01-observability.md) | `[CORE]` ✅ |
-| 18.6 | [**Prometheus** — pull-based metrics, PromQL, alerting rules](phases/phase-18-observability-sre/18.01-observability.md) | `[CORE]` ✅ |
-| 18.7 | [**Grafana** — dashboards, alerting, visualization](phases/phase-18-observability-sre/18.01-observability.md) | `[CORE]` ✅ |
-| 18.8 | [**Datadog** — all-in-one APM, logs, metrics](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.9 | [**New Relic / Dynatrace** — enterprise APM](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.10 | [Distributed tracing — OpenTelemetry, trace context propagation](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.11 | [**Jaeger / Tempo / Zipkin** — distributed tracing backends](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.12 | [**OpenTelemetry** — the standard for telemetry data](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.13 | [**Sentry** — error tracking, performance monitoring](phases/phase-18-observability-sre/18.01-observability.md) | `[CORE]` ✅ |
-| 18.14 | [SLO/SLA/SLI — defining, measuring, alerting on reliability](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.15 | [Error budgets and toil reduction](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.16 | [On-call engineering — PagerDuty, incident response, post-mortems](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.17 | [**PagerDuty / OpsGenie** — on-call alerting platforms](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.18 | [Runbooks — documenting how to respond to incidents](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.19 | [**Uptime Kuma / Checkly** — synthetic monitoring](phases/phase-18-observability-sre/18.01-observability.md) | `[ADVANCED]` ✅ |
-| 18.20 | [eBPF — low-level observability without code changes](phases/phase-18-observability-sre/18.01-observability.md) | `[SPECIALIST]` ✅ |
+| 18.1 | [The three pillars of observability — logs, metrics, traces](phases/phase-18-observability-sre/18.01-three-pillars.md) | `[CORE]` ✅ |
+| 18.2 | [Structured logging — JSON logs, log levels, what to include](phases/phase-18-observability-sre/18.02-structured-logging.md) | `[CORE]` ✅ |
+| 18.3 | [**Elasticsearch + Kibana (ELK Stack)** — log aggregation and visualization](phases/phase-18-observability-sre/18.03-elk-stack.md) | `[CORE]` ✅ |
+| 18.4 | [**Grafana Loki** — log aggregation, cheaper ELK alternative](phases/phase-18-observability-sre/18.04-loki.md) | `[ADVANCED]` ✅ |
+| 18.5 | [Metrics fundamentals — counters, gauges, histograms, summaries](phases/phase-18-observability-sre/18.05-metrics.md) | `[CORE]` ✅ |
+| 18.6 | [**Prometheus** — pull-based metrics, PromQL, alerting rules](phases/phase-18-observability-sre/18.06-prometheus.md) | `[CORE]` ✅ |
+| 18.7 | [**Grafana** — dashboards, alerting, visualization](phases/phase-18-observability-sre/18.07-grafana.md) | `[CORE]` ✅ |
+| 18.8 | [**Datadog** — all-in-one APM, logs, metrics](phases/phase-18-observability-sre/18.08-datadog.md) | `[ADVANCED]` ✅ |
+| 18.9 | [**New Relic / Dynatrace** — enterprise APM](phases/phase-18-observability-sre/18.09-new-relic-dynatrace.md) | `[ADVANCED]` ✅ |
+| 18.10 | [Distributed tracing — OpenTelemetry, trace context propagation](phases/phase-18-observability-sre/18.10-distributed-tracing.md) | `[ADVANCED]` ✅ |
+| 18.11 | [**Jaeger / Tempo / Zipkin** — distributed tracing backends](phases/phase-18-observability-sre/18.11-jaeger-tempo-zipkin.md) | `[ADVANCED]` ✅ |
+| 18.12 | [**OpenTelemetry** — the standard for telemetry data](phases/phase-18-observability-sre/18.12-opentelemetry.md) | `[ADVANCED]` ✅ |
+| 18.13 | [**Sentry** — error tracking, performance monitoring](phases/phase-18-observability-sre/18.13-sentry.md) | `[CORE]` ✅ |
+| 18.14 | [SLO/SLA/SLI — defining, measuring, alerting on reliability](phases/phase-18-observability-sre/18.14-slo-sla-sli.md) | `[ADVANCED]` ✅ |
+| 18.15 | [Error budgets and toil reduction](phases/phase-18-observability-sre/18.15-error-budgets.md) | `[ADVANCED]` ✅ |
+| 18.16 | [On-call engineering — PagerDuty, incident response, post-mortems](phases/phase-18-observability-sre/18.16-oncall.md) | `[ADVANCED]` ✅ |
+| 18.17 | [**PagerDuty / OpsGenie** — on-call alerting platforms](phases/phase-18-observability-sre/18.17-pagerduty-opsgenie.md) | `[ADVANCED]` ✅ |
+| 18.18 | [Runbooks — documenting how to respond to incidents](phases/phase-18-observability-sre/18.18-runbooks.md) | `[ADVANCED]` ✅ |
+| 18.19 | [**Uptime Kuma / Checkly** — synthetic monitoring](phases/phase-18-observability-sre/18.19-synthetic-monitoring.md) | `[ADVANCED]` ✅ |
+| 18.20 | [eBPF — low-level observability without code changes](phases/phase-18-observability-sre/18.20-ebpf.md) | `[SPECIALIST]` ✅ |
 
 ---
 
@@ -799,25 +799,25 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 19.1 | [Testing philosophy — what to test, what not to test](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.2 | [The testing pyramid — unit, integration, end-to-end](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.3 | [Unit testing — isolated, fast, deterministic](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.4 | [Integration testing — testing with real databases and services](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.5 | [Contract testing — **Pact**, consumer-driven contracts](phases/phase-19-testing-quality/19.01-testing.md) | `[ADVANCED]` ✅ |
-| 19.6 | [End-to-end testing — tools, cost, flakiness](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.7 | [**pytest** (Python) — fixtures, parameterization, plugins](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.8 | [**Jest / Vitest** (Node.js) — modern test runners](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.9 | [**Go testing** — stdlib testing package, table-driven tests](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.10 | [Mocking strategies — mocks vs. stubs vs. fakes vs. spies](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.11 | [Test containers — running real databases in tests](phases/phase-19-testing-quality/19.01-testing.md) | `[ADVANCED]` ✅ |
-| 19.12 | [Property-based testing — **Hypothesis** (Python), **fast-check** (JS)](phases/phase-19-testing-quality/19.01-testing.md) | `[ADVANCED]` ✅ |
-| 19.13 | [Mutation testing — are your tests actually testing anything?](phases/phase-19-testing-quality/19.01-testing.md) | `[SPECIALIST]` ✅ |
-| 19.14 | [Performance testing — k6, Locust, JMeter](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.15 | [API testing — Postman, Bruno, Hoppscotch](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.16 | [Chaos testing — intentional failure injection](phases/phase-19-testing-quality/19.01-testing.md) | `[ADVANCED]` ✅ |
-| 19.17 | [Security testing — SAST, DAST, dependency scanning](phases/phase-19-testing-quality/19.01-testing.md) | `[ADVANCED]` ✅ |
-| 19.18 | [Code coverage — what it tells you and what it doesn't](phases/phase-19-testing-quality/19.01-testing.md) | `[CORE]` ✅ |
-| 19.19 | [Test data management — factories, fixtures, seeding](phases/phase-19-testing-quality/19.01-testing.md) | `[ADVANCED]` ✅ |
+| 19.1 | [Testing philosophy — what to test, what not to test](phases/phase-19-testing-quality/19.01-testing-philosophy.md) | `[CORE]` ✅ |
+| 19.2 | [The testing pyramid — unit, integration, end-to-end](phases/phase-19-testing-quality/19.02-testing-pyramid.md) | `[CORE]` ✅ |
+| 19.3 | [Unit testing — isolated, fast, deterministic](phases/phase-19-testing-quality/19.03-unit-testing.md) | `[CORE]` ✅ |
+| 19.4 | [Integration testing — testing with real databases and services](phases/phase-19-testing-quality/19.04-integration-testing.md) | `[CORE]` ✅ |
+| 19.5 | [Contract testing — **Pact**, consumer-driven contracts](phases/phase-19-testing-quality/19.05-contract-testing.md) | `[ADVANCED]` ✅ |
+| 19.6 | [End-to-end testing — tools, cost, flakiness](phases/phase-19-testing-quality/19.06-e2e-testing.md) | `[CORE]` ✅ |
+| 19.7 | [**pytest** (Python) — fixtures, parameterization, plugins](phases/phase-19-testing-quality/19.07-pytest.md) | `[CORE]` ✅ |
+| 19.8 | [**Jest / Vitest** (Node.js) — modern test runners](phases/phase-19-testing-quality/19.08-jest-vitest.md) | `[CORE]` ✅ |
+| 19.9 | [**Go testing** — stdlib testing package, table-driven tests](phases/phase-19-testing-quality/19.09-go-testing.md) | `[CORE]` ✅ |
+| 19.10 | [Mocking strategies — mocks vs. stubs vs. fakes vs. spies](phases/phase-19-testing-quality/19.10-mocking.md) | `[CORE]` ✅ |
+| 19.11 | [Test containers — running real databases in tests](phases/phase-19-testing-quality/19.11-testcontainers.md) | `[ADVANCED]` ✅ |
+| 19.12 | [Property-based testing — **Hypothesis** (Python), **fast-check** (JS)](phases/phase-19-testing-quality/19.12-property-based-testing.md) | `[ADVANCED]` ✅ |
+| 19.13 | [Mutation testing — are your tests actually testing anything?](phases/phase-19-testing-quality/19.13-mutation-testing.md) | `[SPECIALIST]` ✅ |
+| 19.14 | [Performance testing — k6, Locust, JMeter](phases/phase-19-testing-quality/19.14-performance-testing.md) | `[CORE]` ✅ |
+| 19.15 | [API testing — Postman, Bruno, Hoppscotch](phases/phase-19-testing-quality/19.15-api-testing.md) | `[CORE]` ✅ |
+| 19.16 | [Chaos testing — intentional failure injection](phases/phase-19-testing-quality/19.16-chaos-testing.md) | `[ADVANCED]` ✅ |
+| 19.17 | [Security testing — SAST, DAST, dependency scanning](phases/phase-19-testing-quality/19.17-security-testing.md) | `[ADVANCED]` ✅ |
+| 19.18 | [Code coverage — what it tells you and what it doesn't](phases/phase-19-testing-quality/19.18-code-coverage.md) | `[CORE]` ✅ |
+| 19.19 | [Test data management — factories, fixtures, seeding](phases/phase-19-testing-quality/19.19-test-data.md) | `[ADVANCED]` ✅ |
 
 ---
 
@@ -827,26 +827,26 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 20.1 | [How to approach a system design interview — the framework](phases/phase-20-career-system-design/20.01-system-design.md) | `[CORE]` ✅ |
-| 20.2 | [Capacity estimation — back-of-envelope math every engineer must know](phases/phase-20-career-system-design/20.01-system-design.md) | `[CORE]` ✅ |
-| 20.3 | [Design a URL shortener (Tiny URL)](phases/phase-20-career-system-design/20.01-system-design.md) | `[CORE]` ✅ |
-| 20.4 | [Design a rate limiter](phases/phase-20-career-system-design/20.01-system-design.md) | `[CORE]` ✅ |
-| 20.5 | [Design a notification system](phases/phase-20-career-system-design/20.01-system-design.md) | `[CORE]` ✅ |
-| 20.6 | [Design a news feed (Twitter/Instagram)](phases/phase-20-career-system-design/20.01-system-design.md) | `[CORE]` ✅ |
-| 20.7 | [Design a chat system (WhatsApp/Slack)](phases/phase-20-career-system-design/20.01-system-design.md) | `[CORE]` ✅ |
-| 20.8 | [Design a distributed key-value store](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
-| 20.9 | [Design a search autocomplete system](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
-| 20.10 | [Design YouTube / video streaming](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
-| 20.11 | [Design Uber / ride sharing](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
-| 20.12 | [Design a distributed job scheduler](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
-| 20.13 | [Design an e-commerce checkout system](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
-| 20.14 | [Design a payment system](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
-| 20.15 | [Design an API gateway](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
-| 20.16 | [Design a CDN](phases/phase-20-career-system-design/20.01-system-design.md) | `[SPECIALIST]` ✅ |
-| 20.17 | [Design Google Drive / Dropbox](phases/phase-20-career-system-design/20.01-system-design.md) | `[SPECIALIST]` ✅ |
-| 20.18 | [Design a web crawler](phases/phase-20-career-system-design/20.01-system-design.md) | `[SPECIALIST]` ✅ |
-| 20.19 | [Design Airbnb / hotel booking](phases/phase-20-career-system-design/20.01-system-design.md) | `[SPECIALIST]` ✅ |
-| 20.20 | [The staff/principal engineer mindset — thinking at system scale](phases/phase-20-career-system-design/20.01-system-design.md) | `[ADVANCED]` ✅ |
+| 20.1 | [How to approach a system design interview — the framework](phases/phase-20-career-system-design/20.01-system-design-framework.md) | `[CORE]` ✅ |
+| 20.2 | [Capacity estimation — back-of-envelope math every engineer must know](phases/phase-20-career-system-design/20.02-capacity-estimation.md) | `[CORE]` ✅ |
+| 20.3 | [Design a URL shortener (Tiny URL)](phases/phase-20-career-system-design/20.03-url-shortener.md) | `[CORE]` ✅ |
+| 20.4 | [Design a rate limiter](phases/phase-20-career-system-design/20.04-rate-limiter.md) | `[CORE]` ✅ |
+| 20.5 | [Design a notification system](phases/phase-20-career-system-design/20.05-notification-system.md) | `[CORE]` ✅ |
+| 20.6 | [Design a news feed (Twitter/Instagram)](phases/phase-20-career-system-design/20.06-news-feed.md) | `[CORE]` ✅ |
+| 20.7 | [Design a chat system (WhatsApp/Slack)](phases/phase-20-career-system-design/20.07-chat-system.md) | `[CORE]` ✅ |
+| 20.8 | [Design a distributed key-value store](phases/phase-20-career-system-design/20.08-distributed-kv-store.md) | `[ADVANCED]` ✅ |
+| 20.9 | [Design a search autocomplete system](phases/phase-20-career-system-design/20.09-search-autocomplete.md) | `[ADVANCED]` ✅ |
+| 20.10 | [Design YouTube / video streaming](phases/phase-20-career-system-design/20.10-youtube.md) | `[ADVANCED]` ✅ |
+| 20.11 | [Design Uber / ride sharing](phases/phase-20-career-system-design/20.11-uber.md) | `[ADVANCED]` ✅ |
+| 20.12 | [Design a distributed job scheduler](phases/phase-20-career-system-design/20.12-job-scheduler.md) | `[ADVANCED]` ✅ |
+| 20.13 | [Design an e-commerce checkout system](phases/phase-20-career-system-design/20.13-checkout.md) | `[ADVANCED]` ✅ |
+| 20.14 | [Design a payment system](phases/phase-20-career-system-design/20.14-payment-system.md) | `[ADVANCED]` ✅ |
+| 20.15 | [Design an API gateway](phases/phase-20-career-system-design/20.15-api-gateway.md) | `[ADVANCED]` ✅ |
+| 20.16 | [Design a CDN](phases/phase-20-career-system-design/20.16-cdn.md) | `[SPECIALIST]` ✅ |
+| 20.17 | [Design Google Drive / Dropbox](phases/phase-20-career-system-design/20.17-google-drive.md) | `[SPECIALIST]` ✅ |
+| 20.18 | [Design a web crawler](phases/phase-20-career-system-design/20.18-web-crawler.md) | `[SPECIALIST]` ✅ |
+| 20.19 | [Design Airbnb / hotel booking](phases/phase-20-career-system-design/20.19-airbnb.md) | `[SPECIALIST]` ✅ |
+| 20.20 | [The staff/principal engineer mindset — thinking at system scale](phases/phase-20-career-system-design/20.20-principal-mindset.md) | `[ADVANCED]` ✅ |
 
 ---
 
