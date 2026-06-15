@@ -582,34 +582,34 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 12.1 | [Why messaging? — decoupling, resilience, async processing](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.2 | [Message queues vs. event streams — the fundamental difference](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.3 | [At-most-once vs. at-least-once vs. exactly-once delivery](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.4 | [Dead letter queues (DLQ) — handling poison messages](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.5 | [**RabbitMQ** — exchanges, queues, bindings, routing keys](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.6 | [RabbitMQ exchange types — direct, topic, fanout, headers](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.7 | [**Apache Kafka** — partitions, topics, offsets, consumer groups](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.8 | [Kafka internals — log-based storage, retention, compaction](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.9 | [Kafka consumers — rebalancing, partition assignment, lag monitoring](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.10 | [**Kafka Connect** — data pipelines, source/sink connectors](phases/phase-12-messaging-events/12.01-messaging.md) | `[SPECIALIST]` ✅ |
-| 12.11 | [**Kafka Streams** — stream processing without a separate system](phases/phase-12-messaging-events/12.01-messaging.md) | `[SPECIALIST]` ✅ |
-| 12.12 | [**Apache Pulsar** — Kafka alternative, multi-tenancy, tiered storage](phases/phase-12-messaging-events/12.01-messaging.md) | `[SPECIALIST]` ✅ |
-| 12.13 | [**NATS** — lightweight, cloud-native messaging](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.14 | [**AWS SQS + SNS** — managed queue + pub/sub](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.15 | [**Google Pub/Sub** — managed streaming](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.16 | [**Azure Service Bus / Event Hub**](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.17 | [Event-driven architecture (EDA) — events, commands, queries](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.18 | [CQRS — Command Query Responsibility Segregation](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.19 | [Event sourcing — storing state as a sequence of events](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.20 | [Outbox pattern — reliable event publishing with transactions](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.21 | [Saga pattern — distributed transactions without 2PC](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.22 | [Choreography vs. orchestration in sagas](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
-| 12.23 | [Background jobs & task queues — Celery, BullMQ, Sidekiq, Faktory](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.24 | [**Celery** (Python) — distributed task queue, workers, beat scheduler](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.25 | [**BullMQ** (Node.js) — Redis-backed job queue](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.26 | [**Sidekiq** (Ruby) — background processing](phases/phase-12-messaging-events/12.01-messaging.md) | `[CORE]` ✅ |
-| 12.27 | [**Temporal** — durable workflow execution engine](phases/phase-12-messaging-events/12.01-messaging.md) | `[SPECIALIST]` ✅ |
-| 12.28 | [**Inngest** — serverless queues and workflows](phases/phase-12-messaging-events/12.01-messaging.md) | `[ADVANCED]` ✅ |
+| 12.1 | [Why messaging? — decoupling, resilience, async processing](phases/phase-12-messaging-events/12.01-why-messaging.md) | `[CORE]` ✅ |
+| 12.2 | [Message queues vs. event streams — the fundamental difference](phases/phase-12-messaging-events/12.02-queues-vs-streams.md) | `[CORE]` ✅ |
+| 12.3 | [At-most-once vs. at-least-once vs. exactly-once delivery](phases/phase-12-messaging-events/12.03-delivery-guarantees.md) | `[CORE]` ✅ |
+| 12.4 | [Dead letter queues (DLQ) — handling poison messages](phases/phase-12-messaging-events/12.04-dlq.md) | `[CORE]` ✅ |
+| 12.5 | [**RabbitMQ** — exchanges, queues, bindings, routing keys](phases/phase-12-messaging-events/12.05-rabbitmq.md) | `[CORE]` ✅ |
+| 12.6 | [RabbitMQ exchange types — direct, topic, fanout, headers](phases/phase-12-messaging-events/12.06-rabbitmq-exchanges.md) | `[ADVANCED]` ✅ |
+| 12.7 | [**Apache Kafka** — partitions, topics, offsets, consumer groups](phases/phase-12-messaging-events/12.07-kafka.md) | `[ADVANCED]` ✅ |
+| 12.8 | [Kafka internals — log-based storage, retention, compaction](phases/phase-12-messaging-events/12.08-kafka-internals.md) | `[ADVANCED]` ✅ |
+| 12.9 | [Kafka consumers — rebalancing, partition assignment, lag monitoring](phases/phase-12-messaging-events/12.09-kafka-consumers.md) | `[ADVANCED]` ✅ |
+| 12.10 | [**Kafka Connect** — data pipelines, source/sink connectors](phases/phase-12-messaging-events/12.10-kafka-connect.md) | `[SPECIALIST]` ✅ |
+| 12.11 | [**Kafka Streams** — stream processing without a separate system](phases/phase-12-messaging-events/12.11-kafka-streams.md) | `[SPECIALIST]` ✅ |
+| 12.12 | [**Apache Pulsar** — Kafka alternative, multi-tenancy, tiered storage](phases/phase-12-messaging-events/12.12-pulsar.md) | `[SPECIALIST]` ✅ |
+| 12.13 | [**NATS** — lightweight, cloud-native messaging](phases/phase-12-messaging-events/12.13-nats.md) | `[ADVANCED]` ✅ |
+| 12.14 | [**AWS SQS + SNS** — managed queue + pub/sub](phases/phase-12-messaging-events/12.14-sqs-sns.md) | `[CORE]` ✅ |
+| 12.15 | [**Google Pub/Sub** — managed streaming](phases/phase-12-messaging-events/12.15-google-pubsub.md) | `[CORE]` ✅ |
+| 12.16 | [**Azure Service Bus / Event Hub**](phases/phase-12-messaging-events/12.16-azure-messaging.md) | `[ADVANCED]` ✅ |
+| 12.17 | [Event-driven architecture (EDA) — events, commands, queries](phases/phase-12-messaging-events/12.17-eda.md) | `[ADVANCED]` ✅ |
+| 12.18 | [CQRS — Command Query Responsibility Segregation](phases/phase-12-messaging-events/12.18-cqrs.md) | `[ADVANCED]` ✅ |
+| 12.19 | [Event sourcing — storing state as a sequence of events](phases/phase-12-messaging-events/12.19-event-sourcing.md) | `[ADVANCED]` ✅ |
+| 12.20 | [Outbox pattern — reliable event publishing with transactions](phases/phase-12-messaging-events/12.20-outbox.md) | `[ADVANCED]` ✅ |
+| 12.21 | [Saga pattern — distributed transactions without 2PC](phases/phase-12-messaging-events/12.21-saga.md) | `[ADVANCED]` ✅ |
+| 12.22 | [Choreography vs. orchestration in sagas](phases/phase-12-messaging-events/12.22-choreography-orchestration.md) | `[ADVANCED]` ✅ |
+| 12.23 | [Background jobs & task queues — Celery, BullMQ, Sidekiq, Faktory](phases/phase-12-messaging-events/12.23-background-jobs.md) | `[CORE]` ✅ |
+| 12.24 | [**Celery** (Python) — distributed task queue, workers, beat scheduler](phases/phase-12-messaging-events/12.24-celery.md) | `[CORE]` ✅ |
+| 12.25 | [**BullMQ** (Node.js) — Redis-backed job queue](phases/phase-12-messaging-events/12.25-bullmq.md) | `[CORE]` ✅ |
+| 12.26 | [**Sidekiq** (Ruby) — background processing](phases/phase-12-messaging-events/12.26-sidekiq.md) | `[CORE]` ✅ |
+| 12.27 | [**Temporal** — durable workflow execution engine](phases/phase-12-messaging-events/12.27-temporal.md) | `[SPECIALIST]` ✅ |
+| 12.28 | [**Inngest** — serverless queues and workflows](phases/phase-12-messaging-events/12.28-inngest.md) | `[ADVANCED]` ✅ |
 
 ---
 
@@ -619,26 +619,26 @@ Say: "ready to test" → switches to quiz mode
 
 | # | Topic | Tag |
 |---|-------|-----|
-| 13.1 | [Full-text search fundamentals — tokenization, stemming, inverted index](phases/phase-13-search-analytics/13.01-search.md) | `[CORE]` ✅ |
-| 13.2 | [**Elasticsearch** — distributed, RESTful search and analytics](phases/phase-13-search-analytics/13.01-search.md) | `[CORE]` ✅ |
-| 13.3 | [Elasticsearch internals — shards, replicas, segments, lucene](phases/phase-13-search-analytics/13.01-search.md) | `[ADVANCED]` ✅ |
-| 13.4 | [Elasticsearch query DSL — bool, match, term, range, aggregations](phases/phase-13-search-analytics/13.01-search.md) | `[ADVANCED]` ✅ |
-| 13.5 | [**OpenSearch** — AWS's open-source Elasticsearch fork](phases/phase-13-search-analytics/13.01-search.md) | `[ADVANCED]` ✅ |
-| 13.6 | [**Apache Solr** — the original enterprise search](phases/phase-13-search-analytics/13.01-search.md) | `[SPECIALIST]` ✅ |
-| 13.7 | [**Typesense** — open-source, typo-tolerant search](phases/phase-13-search-analytics/13.01-search.md) | `[ADVANCED]` ✅ |
-| 13.8 | [**Meilisearch** — open-source, developer-friendly search](phases/phase-13-search-analytics/13.01-search.md) | `[ADVANCED]` ✅ |
-| 13.9 | [**Algolia** — managed search-as-a-service](phases/phase-13-search-analytics/13.01-search.md) | `[CORE]` ✅ |
-| 13.10 | [Vector databases — semantic search, embeddings, ANN algorithms](phases/phase-13-search-analytics/13.01-search.md) | `[ADVANCED]` ✅ |
-| 13.11 | [**pgvector** — vector search in PostgreSQL](phases/phase-13-search-analytics/13.01-search.md) | `[ADVANCED]` ✅ |
-| 13.12 | [**Pinecone / Weaviate / Qdrant / Milvus** — dedicated vector databases](phases/phase-13-search-analytics/13.01-search.md) | `[ADVANCED]` ✅ |
-| 13.13 | [OLTP vs. OLAP — transactional vs. analytical workloads](phases/phase-13-search-analytics/13.01-search.md) | `[CORE]` ✅ |
-| 13.14 | [**ClickHouse** — columnar OLAP at high speed](phases/phase-13-search-analytics/13.01-search.md) | `[SPECIALIST]` ✅ |
-| 13.15 | [**Apache Druid** — real-time analytics for event data](phases/phase-13-search-analytics/13.01-search.md) | `[SPECIALIST]` ✅ |
-| 13.16 | [**BigQuery** — serverless analytics warehouse](phases/phase-13-search-analytics/13.01-search.md) | `[SPECIALIST]` ✅ |
-| 13.17 | [**Snowflake** — cloud data warehouse](phases/phase-13-search-analytics/13.01-search.md) | `[SPECIALIST]` ✅ |
-| 13.18 | [**Redshift** — AWS data warehouse](phases/phase-13-search-analytics/13.01-search.md) | `[SPECIALIST]` ✅ |
-| 13.19 | [Data warehouses vs. data lakes vs. data lakehouses](phases/phase-13-search-analytics/13.01-search.md) | `[SPECIALIST]` ✅ |
-| 13.20 | [**Apache Iceberg / Delta Lake / Hudi** — open table formats](phases/phase-13-search-analytics/13.01-search.md) | `[SPECIALIST]` ✅ |
+| 13.1 | [Full-text search fundamentals — tokenization, stemming, inverted index](phases/phase-13-search-analytics/13.01-full-text-search-fundamentals.md) | `[CORE]` ✅ |
+| 13.2 | [**Elasticsearch** — distributed, RESTful search and analytics](phases/phase-13-search-analytics/13.02-elasticsearch.md) | `[CORE]` ✅ |
+| 13.3 | [Elasticsearch internals — shards, replicas, segments, lucene](phases/phase-13-search-analytics/13.03-elasticsearch-internals.md) | `[ADVANCED]` ✅ |
+| 13.4 | [Elasticsearch query DSL — bool, match, term, range, aggregations](phases/phase-13-search-analytics/13.04-elasticsearch-query-dsl.md) | `[ADVANCED]` ✅ |
+| 13.5 | [**OpenSearch** — AWS's open-source Elasticsearch fork](phases/phase-13-search-analytics/13.05-opensearch.md) | `[ADVANCED]` ✅ |
+| 13.6 | [**Apache Solr** — the original enterprise search](phases/phase-13-search-analytics/13.06-solr.md) | `[SPECIALIST]` ✅ |
+| 13.7 | [**Typesense** — open-source, typo-tolerant search](phases/phase-13-search-analytics/13.07-typesense.md) | `[ADVANCED]` ✅ |
+| 13.8 | [**Meilisearch** — open-source, developer-friendly search](phases/phase-13-search-analytics/13.08-meilisearch.md) | `[ADVANCED]` ✅ |
+| 13.9 | [**Algolia** — managed search-as-a-service](phases/phase-13-search-analytics/13.09-algolia.md) | `[CORE]` ✅ |
+| 13.10 | [Vector databases — semantic search, embeddings, ANN algorithms](phases/phase-13-search-analytics/13.10-vector-databases.md) | `[ADVANCED]` ✅ |
+| 13.11 | [**pgvector** — vector search in PostgreSQL](phases/phase-13-search-analytics/13.11-pgvector.md) | `[ADVANCED]` ✅ |
+| 13.12 | [**Pinecone / Weaviate / Qdrant / Milvus** — dedicated vector databases](phases/phase-13-search-analytics/13.12-vector-dbs.md) | `[ADVANCED]` ✅ |
+| 13.13 | [OLTP vs. OLAP — transactional vs. analytical workloads](phases/phase-13-search-analytics/13.13-oltp-olap.md) | `[CORE]` ✅ |
+| 13.14 | [**ClickHouse** — columnar OLAP at high speed](phases/phase-13-search-analytics/13.14-clickhouse.md) | `[SPECIALIST]` ✅ |
+| 13.15 | [**Apache Druid** — real-time analytics for event data](phases/phase-13-search-analytics/13.15-druid.md) | `[SPECIALIST]` ✅ |
+| 13.16 | [**BigQuery** — serverless analytics warehouse](phases/phase-13-search-analytics/13.16-bigquery.md) | `[SPECIALIST]` ✅ |
+| 13.17 | [**Snowflake** — cloud data warehouse](phases/phase-13-search-analytics/13.17-snowflake.md) | `[SPECIALIST]` ✅ |
+| 13.18 | [**Redshift** — AWS data warehouse](phases/phase-13-search-analytics/13.18-redshift.md) | `[SPECIALIST]` ✅ |
+| 13.19 | [Data warehouses vs. data lakes vs. data lakehouses](phases/phase-13-search-analytics/13.19-dw-dl-lakehouse.md) | `[SPECIALIST]` ✅ |
+| 13.20 | [**Apache Iceberg / Delta Lake / Hudi** — open table formats](phases/phase-13-search-analytics/13.20-open-table-formats.md) | `[SPECIALIST]` ✅ |
 
 ---
 
@@ -649,40 +649,40 @@ Say: "ready to test" → switches to quiz mode
 ### Distributed Systems Theory
 | # | Topic | Tag |
 |---|-------|-----|
-| 14.1 | [Why distributed systems are hard — 8 fallacies, partial failures](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[CORE]` ✅ |
-| 14.2 | [CAP theorem — consistency, availability, partition tolerance](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[CORE]` ✅ |
-| 14.3 | [PACELC theorem — extending CAP with latency](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.4 | [Consistency models — eventual, strong, causal, read-your-writes](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.5 | [Consensus algorithms — Paxos, Raft — how distributed agreement works](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[SPECIALIST]` ✅ |
-| 14.6 | [Vector clocks and logical time](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[SPECIALIST]` ✅ |
-| 14.7 | [Two-phase commit (2PC) — why it's fragile](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.8 | [Distributed transactions — sagas, TCC, best-effort](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
+| 14.1 | [Why distributed systems are hard — 8 fallacies, partial failures](phases/phase-14-distributed-microservices/14.01-why-distributed-systems-are-hard.md) | `[CORE]` ✅ |
+| 14.2 | [CAP theorem — consistency, availability, partition tolerance](phases/phase-14-distributed-microservices/14.02-cap-theorem.md) | `[CORE]` ✅ |
+| 14.3 | [PACELC theorem — extending CAP with latency](phases/phase-14-distributed-microservices/14.03-pacelc.md) | `[ADVANCED]` ✅ |
+| 14.4 | [Consistency models — eventual, strong, causal, read-your-writes](phases/phase-14-distributed-microservices/14.04-consistency-models.md) | `[ADVANCED]` ✅ |
+| 14.5 | [Consensus algorithms — Paxos, Raft — how distributed agreement works](phases/phase-14-distributed-microservices/14.05-consensus.md) | `[SPECIALIST]` ✅ |
+| 14.6 | [Vector clocks and logical time](phases/phase-14-distributed-microservices/14.06-vector-clocks.md) | `[SPECIALIST]` ✅ |
+| 14.7 | [Two-phase commit (2PC) — why it's fragile](phases/phase-14-distributed-microservices/14.07-two-phase-commit.md) | `[ADVANCED]` ✅ |
+| 14.8 | [Distributed transactions — sagas, TCC, best-effort](phases/phase-14-distributed-microservices/14.08-distributed-transactions.md) | `[ADVANCED]` ✅ |
 
 ### Microservices
 | # | Topic | Tag |
 |---|-------|-----|
-| 14.9 | [Monolith vs. microservices — the actual trade-offs](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[CORE]` ✅ |
-| 14.10 | [The modular monolith — the underrated option](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.11 | [Service decomposition strategies — domain-driven design, bounded contexts](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.12 | [Inter-service communication — synchronous (REST/gRPC) vs. async (events)](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[CORE]` ✅ |
-| 14.13 | [Service discovery — client-side vs. server-side, Consul, etcd](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.14 | [API Gateway pattern — single entry point, routing, auth](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.15 | [BFF (Backend For Frontend) pattern](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.16 | [Circuit breakers in microservices — Hystrix, Resilience4j](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.17 | [Distributed tracing — OpenTelemetry, Jaeger, Zipkin, correlation IDs](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.18 | [The sidecar pattern — Envoy, Istio](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[SPECIALIST]` ✅ |
-| 14.19 | [Service mesh — Istio, Linkerd, Consul Connect](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[SPECIALIST]` ✅ |
-| 14.20 | [Conway's Law — your architecture will mirror your org structure](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[CORE]` ✅ |
-| 14.21 | [When NOT to use microservices](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[CORE]` ✅ |
+| 14.9 | [Monolith vs. microservices — the actual trade-offs](phases/phase-14-distributed-microservices/14.09-monolith-vs-microservices.md) | `[CORE]` ✅ |
+| 14.10 | [The modular monolith — the underrated option](phases/phase-14-distributed-microservices/14.10-modular-monolith.md) | `[ADVANCED]` ✅ |
+| 14.11 | [Service decomposition strategies — domain-driven design, bounded contexts](phases/phase-14-distributed-microservices/14.11-service-decomposition.md) | `[ADVANCED]` ✅ |
+| 14.12 | [Inter-service communication — synchronous (REST/gRPC) vs. async (events)](phases/phase-14-distributed-microservices/14.12-inter-service-communication.md) | `[CORE]` ✅ |
+| 14.13 | [Service discovery — client-side vs. server-side, Consul, etcd](phases/phase-14-distributed-microservices/14.13-service-discovery.md) | `[ADVANCED]` ✅ |
+| 14.14 | [API Gateway pattern — single entry point, routing, auth](phases/phase-14-distributed-microservices/14.14-api-gateway.md) | `[ADVANCED]` ✅ |
+| 14.15 | [BFF (Backend For Frontend) pattern](phases/phase-14-distributed-microservices/14.14-api-gateway.md) | `[ADVANCED]` ✅ |
+| 14.16 | [Circuit breakers in microservices — Hystrix, Resilience4j](phases/phase-14-distributed-microservices/14.16-circuit-breakers.md) | `[ADVANCED]` ✅ |
+| 14.17 | [Distributed tracing — OpenTelemetry, Jaeger, Zipkin, correlation IDs](phases/phase-14-distributed-microservices/14.16-circuit-breakers.md) | `[ADVANCED]` ✅ |
+| 14.18 | [The sidecar pattern — Envoy, Istio](phases/phase-14-distributed-microservices/14.16-circuit-breakers.md) | `[SPECIALIST]` ✅ |
+| 14.19 | [Service mesh — Istio, Linkerd, Consul Connect](phases/phase-14-distributed-microservices/14.16-circuit-breakers.md) | `[SPECIALIST]` ✅ |
+| 14.20 | [Conway's Law — your architecture will mirror your org structure](phases/phase-14-distributed-microservices/14.20-conways-law.md) | `[CORE]` ✅ |
+| 14.21 | [When NOT to use microservices](phases/phase-14-distributed-microservices/14.20-conways-law.md) | `[CORE]` ✅ |
 
 ### Data Patterns in Distributed Systems
 | # | Topic | Tag |
 |---|-------|-----|
-| 14.22 | [Database-per-service pattern](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.23 | [Shared database anti-pattern](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.24 | [Event-driven data synchronization across services](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.25 | [Distributed caching patterns](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
-| 14.26 | [Global ID generation — Snowflake IDs, ULID, Twitter's Snowflake](phases/phase-14-distributed-microservices/14.01-distributed-systems.md) | `[ADVANCED]` ✅ |
+| 14.22 | [Database-per-service pattern](phases/phase-14-distributed-microservices/14.22-database-per-service.md) | `[ADVANCED]` ✅ |
+| 14.23 | [Shared database anti-pattern](phases/phase-14-distributed-microservices/14.22-database-per-service.md) | `[ADVANCED]` ✅ |
+| 14.24 | [Event-driven data synchronization across services](phases/phase-14-distributed-microservices/14.22-database-per-service.md) | `[ADVANCED]` ✅ |
+| 14.25 | [Distributed caching patterns](phases/phase-14-distributed-microservices/14.22-database-per-service.md) | `[ADVANCED]` ✅ |
+| 14.26 | [Global ID generation — Snowflake IDs, ULID, Twitter's Snowflake](phases/phase-14-distributed-microservices/14.22-database-per-service.md) | `[ADVANCED]` ✅ |
 
 ---
 
